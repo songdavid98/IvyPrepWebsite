@@ -33,13 +33,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                <a class="navbar-brand hvr-grow" href="home.html" style="color: white;">IvyPrep</a>
+                <a class="navbar-brand hvr-grow" href="#" style="color: white;">IvyPrep</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse " id="navbar-collapse-3">
                 <ul class="nav navbar-nav navbar-right ">
-                    <li><a href="IvyPrep.html" class="hvr-grow" style="color: white;">Home</a></li>
+                    <li><a href="#" class="hvr-grow" style="color: white;">Home</a></li>
                     <li><a href="AboutUs.html" class="hvr-grow" style="color: white;">About</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle hvr-grow" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: white;">Services <span class="caret"></span></a>
@@ -65,7 +65,7 @@
                     <li><a href="newsletter.html" class="hvr-grow" style="color: white;">Newsletter</a></li>
                     <li><a href="Contact.html" class="hvr-grow" style="color: white;">Contact</a></li>
                     <li>
-                        <a  href="apply.html" class="hvr-grow"  aria-expanded="false" aria-controls="nav-collapse3" style="color: white">Apply</a>
+                        <a href="apply.html" class="hvr-grow" aria-expanded="false" aria-controls="nav-collapse3" style="color: white">Apply</a>
                     </li>
                 </ul>
             </div>
@@ -117,7 +117,7 @@
                                 <div class="animatedParent" data-appear-top-offset="">
                                     <div class="animated tada">
                                         <h7 style="font-size: 30px;font-weight: bold; color: black;">Subscribe to our Newsletters!</h7><br>
-                                        <input type="button" class="btn btn-info hvr-grow" value="Sign Up" onclick="newsLink()">
+                                        <input type="button" class="btn btn-info hvr-grow" value="Sign Up" onclick="locationLink('newsletter.html')">
                                     </div>
                                 </div>
                             </form>
@@ -128,211 +128,179 @@
         </div>
     </div>
     <!-- under navbar -->
-    </div>
     <div class="container underNav">
         <CENTER>
             <div class="row">
-                <div class="col-md-2 col-md-offset-1 box" onclick="satLink()">
+                <div class="col-md-2 col-md-offset-1 box" onclick="locationLink('exams/sat.html')">
                     <h1>SAT</h1>
                 </div>
-                <div class="col-md-2 box" onclick="actLink()">
+                <div class="col-md-2 box" onclick="locationLink('exams/act.html')">
                     <h1>ACT</h1>
                 </div>
-                <div class="col-md-2 box" onclick="shsatLlink()">
+                <div class="col-md-2 box" onclick="locationLlink('exams/shsat.html')">
                     <h1>SHSAT</h1>
                 </div>
-                <div class="col-md-2 box" onclick="hunterLink()">
+                <div class="col-md-2 box" onclick="locationLink('exams/hunter.html')">
                     <h1>Hunter</h1>
                 </div>
-                <div class="col-md-2 box" onclick="psatLink()">
+                <div class="col-md-2 box" onclick="locationLink('exams/psat.html')">
                     <h1>PSAT</h1>
                 </div>
+            </div>
         </CENTER>
-        </div>
-        <!-- 3 divs and dropdown stuff -->
-        <center>
-
-            <div class="container " style="padding: 50px;width: 100%;">
-                <div class="row">
-                    <div class="animatedParent animateOnce" data-sequence='100' data-appear-top-offset='-100'>
-                        <div class="col-md-4 animated fadeInLeftShort" data-id='1'>
-                            <div class="About hvr-grow">
-                                <img src="http://study.com/cimages/multimages/16/teachers-classroom-chalkboard-math.jpg" href="#" style="height: 200px; width: 100%;">
-                                <h2>About Us</h2>
-                                <br>
-                                <button class="btn btn-danger" style="margin-top: 30px;">Find out</button>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 animated fadeIn" data-sequence='100' data-id='2' data-appear-top-offset='-100'>
-                            <div class="Challenge">
-                                <img src="https://www.usnews.com/dims4/USNEWS/9091928/2147483647/thumbnail/970x647/quality/85/?url=%2Fcmsmedia%2F06%2F95%2F7f109a724441afe4612e0b4ffb9f%2F140822-highschool-stock.jpg" style="height: 200px; width: 100%;">
-                                <h2 sty>Challenge Yourself!</h2>
-                                <div class="btn-group dropdown" style="margin-top: 50px;">
-                                    <button class="btn btn-primary dropdown-toggle hvr-grow" type="button" data-toggle="dropdown">Tests
-          <span class="caret"></span></button>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">HTML</a></li>
-                                        <li><a href="#">CSS</a></li>
-                                        <li><a href="#">JavaScript</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 animated fadeInRightShort" data-sequence='100' data-id='3' data-appear-top-offset='-100'>
-                            <div class="courseSelection">
-                                <img src="http://www.thelearningcurveacademy.com/wp-content/uploads/2016/05/SAT-Books.jpg" style="height: 200px; width:100%;">
-                                <h2> Check out our courses</h2>
-                                <div class="btn-group dropdown" style="margin-top: 50px;">
-                                    <button class="btn btn-primary dropdown-toggle hvr-grow" id="menu1" type="button" data-toggle="dropdown" >Courses
-                                    <span class="caret"></span></button>
-                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
-                                        <li role="presentation" class="divider"></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- news, resources and newsletter -->
-            <div style=" width: 100%;">
-                <div class="container-fluid animatedParent animateOnce" style="border: solid black 5px; background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://static.pexels.com/photos/467114/books-bookshelf-library-literature-467114.jpeg); background-size: contain;">
-                    <div class="row animated flipInY">
-                        <div class="col-md-8 col-md-offset-2" style="padding-left: 100px;padding-right: 100px;padding-bottom: 50px;">
-                            <h6 style="font-size: 40px;font-family: 'Montserrat', sans-serif;color: white;">Events</h6>
-                            <div class="news">
-                                <div class="row">
-                                    <div class="col-md-2 col-md-offset-1" style="margin-top: 10px;">
-                                        <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 60px;width: 60px;">
-                                    </div>
-                                    <div class="col-md-4" style="margin-top: 10px;">
-                                        <p>Here is a link
-                                            <br>here is the date</p>
-                                    </div>
-                                </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-md-2 col-md-offset-1">
-                                        <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 60px;width: 60px;">
-                                    </div>
-                                    <div class="col-md-4">
-                                        <p>Here is a link
-                                            <br>here is the date</p>
-                                    </div>
-                                </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-md-2 col-md-offset-1">
-                                        <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 60px;width: 60px;">
-                                    </div>
-                                    <div class="col-md-4">
-                                        <p>Here is a link
-                                            <br>here is the date</p>
-                                    </div>
-                                </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-md-2 col-md-offset-1">
-                                        <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 60px;width: 60px;">
-                                    </div>
-                                    <div class="col-md-4">
-                                        <p>Here is a link
-                                            <br>here is the date</p>
-                                    </div>
-                                </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-md-2 col-md-offset-1">
-                                        <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height:  60px;width: 60px;">
-                                    </div>
-                                    <div class="col-md-4">
-                                        <p>Here is a link
-                                            <br>here is the date</p>
-                                    </div>
-                                </div>
-
-                                <hr>
-
-                            </div>
-                            <div>
-                                <br>
-                                <input type="button" class="btn btn-primary hvr-grow" value="Click Here to Find More Events!" onclick="eventsLink()" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-md-offset-1" style="margin-top: 30px;color: white">
-                <h3>Contact Us</h3>
-                <p>info@ivyprepschool.com
-                    <br> +1 (718) 261 4882 </p>
-            </div>
-            <div class="col-md-3" style="margin-top: 30px;color: white;">
-                <h3>Location</h3>
-                <p>IvyPrep Forest Hills <br> 108-21 72nd Avenue <br> Forest Hills, NY 11375 </p>
-            </div>
-            <div class="col-md-4">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9046107676013!2d-73.844683685271!3d40.72011634505714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25e20adea812b%3A0xe0c48cb3d52ab7de!2s108-21+72nd+Ave%2C+Flushing%2C+NY+11375!5e0!3m2!1sen!2sus!4v1499541641837" width="100%" height="200" frameborder="0" style="border:0;margin-top: 20px;" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 col-md-offset-4">
-                <center>
-                    <img src="images/ivyLogo.png">
-                    <p>© 2017. All Rights Reserved.</p>
-                </center>
-            </div>
-        </div>
     </div>
-</footer>
+    <!-- 3 divs and dropdown stuff -->
+    <center>
+        <div class="container " style="padding: 50px;width: 100%;">
+            <div class="row">
+                <div class="animatedParent animateOnce" data-sequence='100' data-appear-top-offset='-100'>
+                    <div class="col-md-4 animated fadeInLeftShort" data-id='1'>
+                        <div class="About hvr-grow">
+                            <img src="http://study.com/cimages/multimages/16/teachers-classroom-chalkboard-math.jpg" href="#" style="height: 200px; width: 100%;">
+                            <h2>About Us</h2>
+                            <br>
+                            <button class="btn btn-danger" style="margin-top: 30px;">Find out</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 animated fadeIn" data-sequence='100' data-id='2' data-appear-top-offset='-100'>
+                        <div class="Challenge">
+                            <img src="https://www.usnews.com/dims4/USNEWS/9091928/2147483647/thumbnail/970x647/quality/85/?url=%2Fcmsmedia%2F06%2F95%2F7f109a724441afe4612e0b4ffb9f%2F140822-highschool-stock.jpg" style="height: 200px; width: 100%;">
+                            <h2 sty>Challenge Yourself!</h2>
+                            <div class="btn-group dropdown" style="margin-top: 50px;">
+                                <button class="btn btn-primary dropdown-toggle hvr-grow" type="button" data-toggle="dropdown">Tests
+          <span class="caret"></span></button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">HTML</a></li>
+                                    <li><a href="#">CSS</a></li>
+                                    <li><a href="#">JavaScript</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 animated fadeInRightShort" data-sequence='100' data-id='3' data-appear-top-offset='-100'>
+                        <div class="courseSelection">
+                            <img src="http://www.thelearningcurveacademy.com/wp-content/uploads/2016/05/SAT-Books.jpg" style="height: 200px; width:100%;">
+                            <h2> Check out our courses</h2>
+                            <div class="btn-group dropdown" style="margin-top: 50px;">
+                                <button class="btn btn-primary dropdown-toggle hvr-grow" id="menu1" type="button" data-toggle="dropdown">Courses
+                                    <span class="caret"></span></button>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+                                    <li role="presentation" class="divider"></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- news, resources and newsletter -->
+        <div style=" width: 100%;">
+            <div class="container-fluid animatedParent animateOnce" style="border: solid black 5px; background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://static.pexels.com/photos/467114/books-bookshelf-library-literature-467114.jpeg); background-size: contain;">
+                <div class="row animated flipInY">
+                    <div class="col-md-8 col-md-offset-2" style="padding-left: 100px;padding-right: 100px;padding-bottom: 50px;">
+                        <h6 style="font-size: 40px;font-family: 'Montserrat', sans-serif;color: white;">Events</h6>
+                        <div class="news">
+                            <div class="row">
+                                <div class="col-md-2 col-md-offset-1" style="margin-top: 10px;">
+                                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 60px;width: 60px;">
+                                </div>
+                                <div class="col-md-4" style="margin-top: 10px;">
+                                    <p>Here is a link
+                                        <br>here is the date</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-2 col-md-offset-1">
+                                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 60px;width: 60px;">
+                                </div>
+                                <div class="col-md-4">
+                                    <p>Here is a link
+                                        <br>here is the date</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-2 col-md-offset-1">
+                                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 60px;width: 60px;">
+                                </div>
+                                <div class="col-md-4">
+                                    <p>Here is a link
+                                        <br>here is the date</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-2 col-md-offset-1">
+                                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 60px;width: 60px;">
+                                </div>
+                                <div class="col-md-4">
+                                    <p>Here is a link
+                                        <br>here is the date</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-2 col-md-offset-1">
+                                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height:  60px;width: 60px;">
+                                </div>
+                                <div class="col-md-4">
+                                    <p>Here is a link
+                                        <br>here is the date</p>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div>
+                            <br>
+                            <input type="button" class="btn btn-primary hvr-grow" value="Click Here to Find More Events!" onclick="locationLink('event.html')" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-md-offset-1" style="margin-top: 30px;color: white">
+                    <h3>Contact Us</h3>
+                    <p>info@ivyprepschool.com
+                        <br> +1 (718) 261 4882 </p>
+                </div>
+                <div class="col-md-3" style="margin-top: 30px;color: white;">
+                    <h3>Location</h3>
+                    <p>IvyPrep Forest Hills <br> 108-21 72nd Avenue <br> Forest Hills, NY 11375 </p>
+                </div>
+                <div class="col-md-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9046107676013!2d-73.844683685271!3d40.72011634505714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25e20adea812b%3A0xe0c48cb3d52ab7de!2s108-21+72nd+Ave%2C+Flushing%2C+NY+11375!5e0!3m2!1sen!2sus!4v1499541641837" width="100%" height="200" frameborder="0" style="border:0;margin-top: 20px;" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <center>
+                        <img src="images/ivyLogo.png">
+                        <p>© 2017. All Rights Reserved.</p>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 <script type="text/javascript" src="css3-animate-it-master/js/css3-animate-it.js"></script>
-<script>
-    function newsLink() {
-        location.href = "newsLetter.html";
-    }
-
-    function eventsLink() {
-        location.href = "event.html";
-    }
-
-    function satLink() {
-        location.href = "exams/sat.html";
-    }
-
-    function actLink() {
-        location.href = "exams/act.html";
-    }
-
-    function shsatLink() {
-        location.href = "exams/shsat.html";
-    }
-
-    function hunterLink() {
-        location.href = "exams/hunter.html";
-    }
-
-    function psatLink() {
-        location.href = "exams/psat.html";
-    }
-
-</script>
+<script type="text/javascript" src="js/generalscript.js"></script>
 <script type="text/javascript">
     $('.carousel').carousel({
         interval: 4500
     });
-
 </script>
 <!-- this script checks to see if your page go over the maximum length of page -->
 <script type="text/javascript">
@@ -346,7 +314,6 @@
             }
         }
     );
-
 </script>
 
 </html>
