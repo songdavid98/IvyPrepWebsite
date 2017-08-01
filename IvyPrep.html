@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>IvyPrep</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/ivyStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <style type="text/css">
+        body,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Oswald', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse" style="position: fixed; z-index: 1; width: 100%;">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-3">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                <a class="navbar-brand hvr-grow" href="#" style="color: white;">IvyPrep</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse " id="navbar-collapse-3">
+                <ul class="nav navbar-nav navbar-right ">
+                    <li><a href="#" class="hvr-grow" style="color: white;">Home</a></li>
+                    <li><a href="AboutUs.html" class="hvr-grow" style="color: white;">About</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle hvr-grow" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: white;">Services <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="services/Classes.html">Classes</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="exams/psat.html">Private Tutoring</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="exams/act.html">Self-Paced</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-submenu">
+                                <a tabindex="-1" href="#">Tests</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="exams/sat.html">SAT</a></li>
+                                    <li><a href="exams/act.html">ACT</a></li>
+                                    <li><a href="exams/psat.html">PSAT</a></li>
+                                    <li><a href="exams/shsat.html">SHSAT</a></li>
+                                    <li><a href="exams/hunter.html">HUNTER</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="newsletter.html" class="hvr-grow" style="color: white;">Newsletter</a></li>
+                    <li><a href="Contact.html" class="hvr-grow" style="color: white;">Contact</a></li>
+                    <li>
+                        <a href="apply.html" class="hvr-grow" aria-expanded="false" aria-controls="nav-collapse3" style="color: white">Apply</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+
+    </nav>
+    <!-- /.navbar -->
+
+    <div style="height: 54px;"></div>
+
+    <!-- image slider -->
+
+    <div style="width: 100%">
+        <div class="row">
+            <div class="container">
+                <div class="col-md-8">
+                    <div id="my-slider" class="carousel slide" data-ride="carousel">
+                        <!--Wrapper for the slides -->
+                        <div class="carousel-inner" role="listbox" style="width: 100%">
+                            <div class="item active">
+                                <img src="https://media3.s-nbcnews.com/j/newscms/2014_10/233386/140306-sat-test-02-120_50d846b8ea32fc8589c4ce2f6fbe67ee.nbcnews-ux-2880-1000.jpg" alt="First" style="width:100% ;height: 450px" />
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="http://supportconnection.org/wp-content/uploads/books.jpg" alt="First" style="width: 100%;" />
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="https://media.licdn.com/mpr/mpr/p/7/005/089/3bf/1451504.jpg" alt="First" style="width:100%;height: 450px" />
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#my-slider" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#my-slider" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div style="height: 450px; width: 100%; background-color:;margin-left: -30px;">
+                        <center>
+                            <img src=" http://www.genderroadcc.com/hp_wordpress/wp-content/uploads/2016/03/Newsletter-Icon.png " style="height: 200px;width: 200px;margin-top: 50px;" />
+                            <form style="margin-top: 20px; ">
+                                <div class="animatedParent " data-appear-top-offset=" ">
+                                    <div class="animated tada ">
+                                        <h7 style="font-size: 30px;font-weight: bold; color: black; ">Subscribe to our Newsletters!</h7><br><br>
+                                        <input type="button" class="btn btn-info hvr-grow " value="Sign Up " onclick="newsLink() ">
+                                    </div>
+                                </div>
+                            </form>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- under navbar -->
+    <div class="container underNav ">
+        <center>
+            <div class="row ">
+                <div class="col-md-2 col-md-offset-1 box " onclick="satLink() ">
+                    <h1>SAT</h1>
+                </div>
+                <div class="col-md-2 box " onclick="actLink() ">
+                    <h1>ACT</h1>
+                </div>
+                <div class="col-md-2 box " onclick="shsatLlink() ">
+                    <h1>SHSAT</h1>
+                </div>
+                <div class="col-md-2 box " onclick="hunterLink() ">
+                    <h1>Hunter</h1>
+                </div>
+                <div class="col-md-2 box " onclick="psatLink() ">
+                    <h1>PSAT</h1>
+                </div>
+
+            </div>
+        </center>
+        <!-- 3 divs and dropdown stuff -->
+        <center>
+
+            <div class="container " style="padding: 50px;width: 100%; background-color: #A5ABB5 ">
+                <div class="row ">
+                    <div class="animatedParent animateOnce " data-sequence='100' data-appear-top-offset='-100'>
+                        <div class="col-md-4 animated fadeInLeftShort " data-id='1'>
+                            <div class="About " style="border-radius: 3px; ">
+                                <img src="http://study.com/cimages/multimages/16/teachers-classroom-chalkboard-math.jpg " href="# " style="height: 200px; width: 300px;margin-top: 50px; ">
+                                <h2>About Us</h2>
+                                <br>
+                                <button class="btn btn-danger hvr-grow ">Find out</button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 animated fadeIn " data-sequence='100' data-id='2' data-appear-top-offset='-100'>
+                            <div class="Challenge ">
+                                <img src="https://www.usnews.com/dims4/USNEWS/9091928/2147483647/thumbnail/970x647/quality/85/?url=%2Fcmsmedia%2F06%2F95%2F7f109a724441afe4612e0b4ffb9f%2F140822-highschool-stock.jpg " style="height: 200px; width: 300px;margin-top: 50px; ">
+                                <h2 sty>Challenge yourself with practice test!</h2>
+                                <div class="btn-group dropdown ">
+                                    <button class="btn btn-primary dropdown-toggle hvr-grow " type="button " data-toggle="dropdown ">Tests
+          <span class="caret "></span></button>
+                                    <ul class="dropdown-menu ">
+                                        <li><a href="# ">HTML</a></li>
+                                        <li><a href="# ">CSS</a></li>
+                                        <li><a href="# ">JavaScript</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 animated fadeInRightShort " data-sequence='100' data-id='3' data-appear-top-offset='-100'>
+                            <div class="courseSelection ">
+                                <img src="http://www.thelearningcurveacademy.com/wp-content/uploads/2016/05/SAT-Books.jpg " style="height: 200px; width: 300px; margin-top: 50px; ">
+                                <h2 sty>Want to get Ready? <br> Check out our courses</h2>
+                                <div class="btn-group dropdown ">
+                                    <button class="btn btn-primary dropdown-toggle hvr-grow " id="menu1 " type="button " data-toggle="dropdown ">Courses
+            <span class="caret "></span></button>
+                                    <ul class="dropdown-menu " role="menu " aria-labelledby="menu1 ">
+                                        <li role="presentation "><a role="menuitem " tabindex="-1 " href="# ">HTML</a></li>
+                                        <li role="presentation "><a role="menuitem " tabindex="-1 " href="# ">CSS</a></li>
+                                        <li role="presentation "><a role="menuitem " tabindex="-1 " href="# ">JavaScript</a></li>
+                                        <li role="presentation " class="divider "></li>
+                                        <li role="presentation "><a role="menuitem " tabindex="-1 " href="# ">About Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+
+        <!-- news, resources and newsletter -->
+        <div style="text-align: center; width: 100%; ">
+            <div class="container-fluid animatedParent animateOnce librarybookshelf" style="border: solid black 5px;">
+                <div class="row animated flipInY ">
+                    <div class="col-md-8 col-md-offset-2 " style="padding-left: 100px;padding-right: 100px;padding-bottom: 50px; ">
+                        <h6 style="font-size: 40px;font-family: 'Montserrat', sans-serif;color: white; ">Events</h6>
+                        <div class="news ">
+                            <div class="row ">
+                                <div class="col-md-2 col-md-offset-1 " style="margin-top: 10px; ">
+                                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg " class="img-circle " style="height: 60px;width: 60px; ">
+                                </div>
+                                <div class="col-md-4 " style="margin-top: 10px; ">
+                                    <p>Here is a link
+                                        <br>here is the date</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row ">
+                                <div class="col-md-2 col-md-offset-1 ">
+                                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg " class="img-circle " style="height: 60px;width: 60px; ">
+                                </div>
+                                <div class="col-md-4 ">
+                                    <p>Here is a link
+                                        <br>here is the date</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row ">
+                                <div class="col-md-2 col-md-offset-1 ">
+                                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg " class="img-circle " style="height: 60px;width: 60px; ">
+                                </div>
+                                <div class="col-md-4 ">
+                                    <p>Here is a link
+                                        <br>here is the date</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row ">
+                                <div class="col-md-2 col-md-offset-1 ">
+                                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg " class="img-circle " style="height: 60px;width: 60px; ">
+                                </div>
+                                <div class="col-md-4 ">
+                                    <p>Here is a link
+                                        <br>here is the date</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row ">
+                                <div class="col-md-2 col-md-offset-1 ">
+                                    <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg " class="img-circle " style="height: 60px;width: 60px; ">
+                                </div>
+                                <div class="col-md-4 ">
+                                    <p>Here is a link
+                                        <br>here is the date</p>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                        </div>
+                        <div>
+                            <br>
+                            <input type="button" class="btn btn-primary hvr-grow " value="Click Here to Find More Events! " onclick="eventsLink()" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- newsletter section -->
+        <!--     
+    <div class="row " style="background-color: #E0E3E0; ">
+        <div class="col-md-6 col-md-offset-3 ">
+            <div class="newsletters " style="background-color: #E0E3E0; ">
+              <img src="http://www.genderroadcc.com/hp_wordpress/wp-content/uploads/2016/03/Newsletter-Icon.png " style="height: 200px;width: 200px;margin-top: 50px; ">
+              <center>
+                <form style="margin-top: 20px; ">
+                    <div class="animatedParent animateOnce " data-appear-top-offset="-175 ">
+                        <div class="animated tada ">
+                            <h7 style="font-size: 30px;font-weight: bold; color: black; ">Subscribe to our Newsletters!</h7><br>
+                            <input type="button " class="btn btn-info hvr-grow " value="Sign Up " onclick="newsLink() ">
+                        </div>
+                    </div>
+                </form>
+              </center>
+            </div>
+        </div>
+      </div>
+     -->
+    </div>
+
+    <!-- </div> -->
+    <footer>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-3 col-md-offset-1 " style="margin-top: 30px;color: white ">
+                    <h3>Contact Us</h3>
+                    <p>info@ivyprepschool.com
+                        <br> +1 (718) 261 4882 </p>
+                </div>
+                <div class="col-md-3 " style="margin-top: 30px;color: white; ">
+                    <h3>Location</h3>
+                    <p>IvyPrep Forest Hills <br> 108-21 72nd Avenue <br> Forest Hills, NY 11375 </p>
+                </div>
+                <div class="col-md-4 ">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9046107676013!2d-73.844683685271!3d40.72011634505714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25e20adea812b%3A0xe0c48cb3d52ab7de!2s108-21+72nd+Ave%2C+Flushing%2C+NY+11375!5e0!3m2!1sen!2sus!4v1499541641837 " width="100% " height="200 " frameborder="0 " style="border:0;margin-top: 20px; " allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-4 col-md-offset-4 ">
+                    <center>
+                        <img src="images/ivyLogo.png ">
+                        <p>© 2017. All Rights Reserved.</p>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    // $(document).ready(function(){
+    //     $(".dropdown-toggle ").dropdown();
+    // });
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
+<script type="text/javascript " src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "></script>
+<!-- <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js "
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin=" anonymous "></script> -->
+<script>
+    function newsLink() {
+        location.href = "newsLetter.html ";
+    }
+
+    function eventsLink() {
+        location.href = "event.html ";
+    }
+
+    function satLink() {
+        location.href = "exams/sat.html ";
+    }
+
+    function actLink() {
+        location.href = "exams/act.html ";
+    }
+
+    function shsatLink() {
+        location.href = "exams/shsat.html ";
+    }
+
+    function hunterLink() {
+        location.href = "exams/hunter.html ";
+    }
+
+    function psatLink() {
+        location.href = "exams/psat.html ";
+    }
+</script>
+<script type="text/javascript ">
+    $('.carousel').carousel({
+        interval: 4500
+    });
+</script>
+
+<script type="text/javascript " src="css3-animate-it-master/js/css3-animate-it.js "></script>
+
+<!-- this script checks to see if your page go over the maximum length of page -->
+<script type="text/javascript ">
+    var docWidth = document.documentElement.offsetWidth;
+
+    [].forEach.call(
+        document.querySelectorAll('*'),
+        function(el) {
+            if (el.offsetWidth > docWidth) {
+                console.log(el);
+            }
+        }
+    );
+</script>
+
+</html>

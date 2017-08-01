@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IvyPrep-Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/ivyStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse" style="position: fixed; z-index: 1; width: 100%;">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-3">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                <a class="navbar-brand hvr-grow" href="IvyPrep.html" style="color: white;">IvyPrep</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse " id="navbar-collapse-3">
+                <ul class="nav navbar-nav navbar-right ">
+                    <li><a href="IvyPrep.html" class="hvr-grow" style="color: white;">Home</a></li>
+                    <li><a href="AboutUs.html" class="hvr-grow" style="color: white;">About</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle hvr-grow" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: white;">Services <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="services/Classes.html">Classes</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="exams/psat.html">Private Tutoring</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="exams/act.html">Self-Paced</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-submenu">
+                                <a tabindex="-1" href="#">Tests</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="exams/sat.html">SAT</a></li>
+                                    <li><a href="exams/act.html">ACT</a></li>
+                                    <li><a href="exams/psat.html">PSAT</a></li>
+                                    <li><a href="exams/shsat.html">SHSAT</a></li>
+                                    <li><a href="exams/hunter.html">HUNTER</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="newsletter.html" class="hvr-grow" style="color: white;">Newsletter</a></li>
+                    <li><a href="#" class="hvr-grow" style="color: white;">Contact</a></li>
+                    <li>
+                        <a href="apply.html" class="hvr-grow" aria-expanded="false" aria-controls="nav-collapse3" style="color: white">Apply</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+
+    </nav>
+    <!-- /.container-fluid -->
+    <div style="height: 54px;"></div>
+
+    <div class="container" style="margin-top: 40px; margin-bottom: 40px;">
+        <div class="row animatedParent animateOnce">
+            <div class="col-md-6 col-md-offset-1 animated fadeInLeftShort">
+                <div class="form-area">
+                    <form role="form" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSftjDByF43aqe0TfyQ8gmXYy_c_NhtRf4YMPZh5BTuKSmmk-Q/formResponse">
+                        <br style="clear:both">
+                        <h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" name="entry.1203746210" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="email" name="entry.46218409" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="mobile" name="entry.1325193280" placeholder="Mobile Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="subject" name="entry.469559093" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" type="textarea" id="message" name="entry.1013088367" placeholder="Message" maxlength="200" rows="7"></textarea>
+                            <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>
+                        </div>
+
+                        <input type="submit" id="submit" name="submit" value="Send" class="btn btn-primary  hvr-grow pull-right" />
+                    </form>
+                </div>
+            </div>
+            <!-- location and email information -->
+            <div class="col-md-4 otherInfo animated fadeInRightShort">
+                <p>Email: <br>info@ivyprepschool.com </p>
+                <p>Phone: <br> +1 (718) 261 4882</p>
+                <p>Please Visit: <br>IvyPrep Forest Hills 108-21 72nd Avenue Forest Hills, NY 11375
+                </p>
+                <div>
+                    <center><img src="http://www.genderroadcc.com/hp_wordpress/wp-content/uploads/2016/03/Newsletter-Icon.png" style="height: 200px;width: 200px; "></center>
+                    <center>
+                        <form style="margin-top: 22px; margin-bottom: 30px;">
+                            <h7 style="font-size: 30px;font-weight: bold; color: black;">Subscribe to our Newsletters!</h7>
+                            <input type="button" class="btn btn-info hvr-grow" value="Sign Up!" onclick="newsLink()">
+                        </form>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-md-offset-1" style="margin-top: 30px;color: white">
+                    <h3>Contact Us</h3>
+                    <p>info@ivyprepschool.com
+                        <br> +1 (718) 261 4882 </p>
+                </div>
+                <div class="col-md-3" style="margin-top: 30px;color: white;">
+                    <h3>Location</h3>
+                    <p>IvyPrep Forest Hills <br> 108-21 72nd Avenue <br> Forest Hills, NY 11375 </p>
+                </div>
+                <div class="col-md-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9046107676013!2d-73.844683685271!3d40.72011634505714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25e20adea812b%3A0xe0c48cb3d52ab7de!2s108-21+72nd+Ave%2C+Flushing%2C+NY+11375!5e0!3m2!1sen!2sus!4v1499541641837" width="100%" height="200" frameborder="0" style="border:0;margin-top: 20px;" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <center>
+                        <img src="images/ivyLogo.png">
+                        <p>© 2017. All Rights Reserved.</p>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<!-- for the contact form -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#characterLeft').text('200 characters left');
+        $('#message').keydown(function() {
+            var max = 200;
+            var len = $(this).val().length;
+            if (len >= max) {
+                $('#characterLeft').text('You have reached the limit');
+                $('#characterLeft').addClass('red');
+                $('#btnSubmit').addClass('disabled');
+            } else {
+                var ch = max - len;
+                $('#characterLeft').text(ch + ' characters left');
+                $('#btnSubmit').removeClass('disabled');
+                $('#characterLeft').removeClass('red');
+            }
+        });
+    });
+</script>
+<script>
+    function newsLink() {
+        location.href = "newsLetter.html";
+    }
+</script>
+<script type="text/javascript" src="css3-animate-it-master/js/css3-animate-it.js"></script>
+
+</html>
