@@ -35,7 +35,6 @@ h1 {
     width: 100%;
     border: solid 1px black;
     background-color: white;
-
 }
 
 ul li {
@@ -119,6 +118,13 @@ tab1 {
     padding-left: 4em;
 }
 
+a.anchormargin {
+    top: -54px;
+    display: block;
+    position: relative;
+    visibility: hidden;
+}
+
 
 /*footer {
     background-color: steelblue;
@@ -184,13 +190,15 @@ legend {
     margin-bottom: 30px;
     padding: 20px;
 }
-.textbook2{
+
+.textbook2 {
     color: white;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/textbook.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 .study {
     padding: 30px;
     color: white;
@@ -202,6 +210,7 @@ legend {
     background-repeat: no-repeat;
     z-index: -1;
 }
+
 
 /*This image is free*/
 
@@ -428,126 +437,151 @@ legend {
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
 }
+
+
 /*this part is for flipping cards*/
+
 #f1_container {
-  position: relative;
-  margin: 10px auto;
-  width: 300px;
-  height: 240px;
-  z-index: 1;
+    position: relative;
+    margin: 10px auto;
+    width: 300px;
+    height: 240px;
+    z-index: 1;
 }
+
 #f1_container {
-  perspective: 1000;
-  width: 20%;
+    perspective: 1000;
+    width: 20%;
 }
+
 #f1_card {
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-  transition: all 0.3s linear;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.3s linear;
 }
+
 #f2_card {
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-  transition: all 0.5s linear;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s linear;
 }
+
 #f1_container:hover #f1_card {
-  transform: rotateY(180deg);
-  box-shadow: -5px 5px 5px #aaa;
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 5px #aaa;
 }
 
 .face {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-.face.back {
-  display: block;
-  transform: rotateY(180deg);
-  box-sizing: border-box;
-  padding: 10px;
-  color: white;
-  text-align: center;
-  background-color: white;
-}
-/*this is for courses*/
-.satCourses{
-    margin-top: 30px;
-    height:300px;
+    position: absolute;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/class.jpg");
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.face.back {
+    display: block;
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: white;
+}
+
+
+/*this is for courses*/
+
+.satCourses {
+    margin-top: 30px;
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/class.jpg");
     background-size: cover;
 }
+
+
 /*course descriptions*/
-.classJumbo{
+
+.classJumbo {
     height: 150px;
     width: 100%;
-    background-color: #3585ED;  
+    background-color: #3585ED;
 }
-.backOfDes{
+
+.backOfDes {
     height: 600px;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/class.jpg");
-    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/class.jpg");
 }
-.lay{
+
+.lay {
     height: 400px;
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0, 0, 0, 0.9);
 }
+
+
 /*for tutoring page*/
-.tutoringJumbo{
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://static.pexels.com/photos/48126/books-education-school-literature-48126.jpeg");
+
+.tutoringJumbo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://static.pexels.com/photos/48126/books-education-school-literature-48126.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
-.tutoringSections{
+
+.tutoringSections {
     overflow: auto;
     padding: 10px;
 }
-.tutoringSections col-md-6{
+
+.tutoringSections col-md-6 {
     width: 50%;
     height: 300px;
 }
-.tutoringSections col-sm-12{
+
+.tutoringSections col-sm-12 {
     width: 100%;
     height: 300px;
 }
-.textSec{
+
+.textSec {
     font-size: 15px;
     margin-top: 20px;
-    
 }
-.textSec h1{
+
+.textSec h1 {
     font-size: 35px;
     color: black;
     text-align: center;
 }
-.imgSec{
+
+.imgSec {
     /*background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));*/
     background-image: url("http://www.teachmetutor.com/images/purestock_1574r-0545a.jpg");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: contain;
     height: 400px;
     width: 100%;
 }
 
-.imgSec2{
+.imgSec2 {
     /*background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));*/
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: contain;
     height: 400px;
     width: 50%;
 }
-.score{
+
+.score {
     background-color: #D5D1BB;
     overflow: auto;
     padding: 20px;
     border-radius: 5px;
     border: 1px solid black;
 }
-.score h1{
+
+.score h1 {
     color: black;
     font-size: 15px;
 }
