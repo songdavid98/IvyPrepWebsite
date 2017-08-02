@@ -353,7 +353,7 @@ legend {
     height: 0px;
     border-style: inset;
     border-width: 0 130px 100px 130px;
-    float: left;
+    float: auto;
     transform: rotate(180deg);
     display: block
 }
