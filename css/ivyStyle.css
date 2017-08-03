@@ -1,4 +1,4 @@
-    body {
+body {
     overflow-x: hidden;
 }
 
@@ -75,6 +75,7 @@ li:active {}
 footer {
     /*    height: 300px;*/
     width: 100%;
+    padding-bottom: 25px;
     background-color: grey;
 }
 
@@ -127,11 +128,11 @@ a.anchormargin {
 
 
 /*footer {
-    background-color: steelblue;
-    width: 100%;
-    margin-top:50px; 
-    padding:25px;
-    color: black;
+background-color: steelblue;
+width: 100%;
+margin-top:50px; 
+padding:25px;
+color: black;
 }*/
 
 p {
@@ -296,8 +297,8 @@ legend {
 
 
 /*.test {
-    border: 3px solid black;
-    border-radius: 3px;
+border: 3px solid black;
+border-radius: 3px;
 }*/
 
 .option {
@@ -609,7 +610,7 @@ legend {
 
 /*bootstrap code*/
 
-<<<<<<< HEAD .navBarRow {
+.navBarRow {
     margin-right: -15px;
     margin-left: -15px;
     padding-top: 5px;
@@ -630,63 +631,82 @@ legend {
 .center-bio {
     margin-left: 10px;
     margin-right: 10px;
-    =======.custom {
-        padding: 10px;
-    }
-    .custom i {
-        color: white
-    }
-    .custom a {
-        color: white;
-    }
-    .custom:hover {
-        background-color: #9C9C9C;
-    }
-    .text-center {
-        padding-top: 5px;
-        padding-bottom: 5px;
-        text-align: center;
-    }
-    @media screen and (min-width: 480px) {
-        #footer {
-            display: block;
-        }
-    }
-    @media screen and (min-width: 780px) {
-        #footer {
-            display: hide;
-        }
-    }
-    body,
-    p,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: 'Oswald', sans-serif;
-    }
-    /*this is for bottom nav*/
+}
+
+.custom {
+    padding: 10px;
+}
+
+.custom i {
+    color: white
+}
+
+.custom a {
+    color: white;
+}
+
+.custom:hover {
+    background-color: #9C9C9C;
+}
+
+.text-center {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+@media screen and (min-width: 480px) {
     #footer {
-        text-align: center;
-        text-decoration-style: black;
+        display: block;
     }
-    @media (min-width: 300px) and (max-width: 780px) {
-        #footer {
-            display: block;
-        }
+}
+
+@media screen and (min-width: 780px) {
+    #footer {
+        display: hide;
     }
-    @media (min-width: 781px) {
-        #footer {
-            display: none;
-        }
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/*this is for bottom nav*/
+
+#footer {
+    text-align: center;
+    align-content: center;
+    text-decoration-style: black;
+    color: black;
+}
+
+@media (min-width: 300px) and (max-width: 780px) {
+    #footer {
+        display: block;
+        color: black;
     }
-    a {
-        text-decoration: none;
+}
+
+@media (min-width: 781px) {
+    #footer {
+        display: none;
     }
-    a:hover {
-        color: white;
-        text-decoration: none;
-        cursor: pointer;
-    }
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
