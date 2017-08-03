@@ -1,4 +1,4 @@
-body {
+    body {
     overflow-x: hidden;
 }
 
@@ -473,6 +473,11 @@ legend {
     box-shadow: -5px 5px 5px #aaa;
 }
 
+#f1_container:focus #f1_card {
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 5px #aaa;
+}
+
 .face {
     position: absolute;
     width: 100%;
@@ -480,7 +485,8 @@ legend {
     backface-visibility: hidden;
 }
 
-.face.back {
+.face.back,
+.face.back:focus {
     display: block;
     transform: rotateY(180deg);
     box-sizing: border-box;
@@ -585,71 +591,102 @@ legend {
     color: black;
     font-size: 15px;
 }
-.priceTag{
+
+.priceTag {
     width: 80%;
     margin: 0 auto;
-    border: 1px solid #C9C7C7; 
-    padding: 30px; 
+    border: 1px solid #C9C7C7;
+    padding: 30px;
     border-radius: 5px;
 }
-.tutorPackage{
+
+.tutorPackage {
     padding: 40px 20px;
     background-color: #F7DB86;
     margin-top: 30px;
 }
 
+
 /*bootstrap code*/
-.custom{
-    padding: 10px;
-}
-.custom i{
-    color: white
-}
-.custom a{
-    color: white;
-}
-.custom:hover{
-    background-color: #9C9C9C;
-}
-.text-center {
-   padding-top: 5px;
-   padding-bottom: 5px;
-   text-align: center;
+
+<<<<<<< HEAD .navBarRow {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: #FFFFFF;
+    border-top-color: #000;
+    border-width: 30px;
 }
 
-body,
-        p,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-family: 'Oswald', sans-serif;
+.mobileScale {
+    padding-left: 30%;
 }
-/*this is for bottom nav*/
-#footer{
-    text-align: center;
-    text-decoration-style: black;
+
+.padding-custom {
+    padding-bottom: 25px;
 }
-@media (min-width: 300px) and (max-width: 780px) {
+
+.center-bio {
+    margin-left: 10px;
+    margin-right: 10px;
+    =======.custom {
+        padding: 10px;
+    }
+    .custom i {
+        color: white
+    }
+    .custom a {
+        color: white;
+    }
+    .custom:hover {
+        background-color: #9C9C9C;
+    }
+    .text-center {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    @media screen and (min-width: 480px) {
         #footer {
             display: block;
-            
         }
-}
-@media (min-width: 781px){
+    }
+    @media screen and (min-width: 780px) {
+        #footer {
+            display: hide;
+        }
+    }
+    body,
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Oswald', sans-serif;
+    }
+    /*this is for bottom nav*/
+    #footer {
+        text-align: center;
+        text-decoration-style: black;
+    }
+    @media (min-width: 300px) and (max-width: 780px) {
+        #footer {
+            display: block;
+        }
+    }
+    @media (min-width: 781px) {
         #footer {
             display: none;
         }
-}
- a {
-     text-decoration: none ;
-  }
-a:hover
-  {
-    color:white;
-    text-decoration:none;
-    cursor:pointer;
-   }
-
+    }
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }

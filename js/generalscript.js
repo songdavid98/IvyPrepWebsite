@@ -1,8 +1,24 @@
+"use strict";
+
 //    This sets an href to the element
 //    for onclicks
 //    Parameters: String location.
 //    Return: none.
 function locationLink(locationstring) {
-    "use strict";
     location.href = locationstring;
+}
+
+//    This function searches all elements with classname, makes them invisible,
+//    except makes visible the element with the idname
+//    Parameters: String classname, String idname
+//    Return: none
+function swap(classname, idname) {
+    var sameclass = document.getElementsByClassName(classname);
+    for (var i = 0; i < sameclass.length; i++) {
+        if (sameclass[i].id == idname) {
+            sameclass[i].style.display = 'block';
+        } else {
+            sameclass[i].style.display = 'none';
+        }
+    }
 }
