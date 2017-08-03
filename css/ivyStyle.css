@@ -355,7 +355,7 @@ legend {
     border-width: 0 110px 100px 110px;
     float: 0 auto;
     transform: rotate(180deg);
-    display: block
+    display: block;
 }
 
 .up1 {
@@ -584,4 +584,59 @@ legend {
 .score h1 {
     color: black;
     font-size: 15px;
+}
+.priceTag{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #C9C7C7; 
+    padding: 30px; 
+    border-radius: 5px;
+}
+.tutorPackage{
+    padding: 40px 20px;
+    background-color: #F7DB86;
+    margin-top: 30px;
+}
+
+/*bootstrap code*/
+.navBarRow
+{
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-top: 5px;
+  padding-left: 5px;
+  background-color: #FFFFFF;
+  border-top-color: #000;
+  border-width: 30px;
+  
+}
+.mobileScale
+{
+    padding-left: 30%;
+    
+}
+
+.padding-custom{
+    padding-bottom:25px;
+}
+
+.center-bio{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.text-center {
+   padding-top: 5px;
+   padding-bottom: 5px;
+   text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+    #footer{
+        display: block;
+    }
+}
+@media screen and (min-width: 780px) {
+    #footer{
+        display: hide;
+    }
 }
