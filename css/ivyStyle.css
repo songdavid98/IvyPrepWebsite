@@ -599,30 +599,17 @@ legend {
 }
 
 /*bootstrap code*/
-.navBarRow
-{
-  margin-right: -15px;
-  margin-left: -15px;
-  padding-top: 5px;
-  padding-left: 5px;
-  background-color: #FFFFFF;
-  border-top-color: #000;
-  border-width: 30px;
-  
+.custom{
+    padding: 10px;
 }
-.mobileScale
-{
-    padding-left: 30%;
-    
+.custom i{
+    color: white
 }
-
-.padding-custom{
-    padding-bottom:25px;
+.custom a{
+    color: white;
 }
-
-.center-bio{
-    margin-left: 10px;
-    margin-right: 10px;
+.custom:hover{
+    background-color: #9C9C9C;
 }
 .text-center {
    padding-top: 5px;
@@ -630,16 +617,6 @@ legend {
    text-align: center;
 }
 
-@media screen and (min-width: 480px) {
-    #footer{
-        display: block;
-    }
-}
-@media screen and (min-width: 780px) {
-    #footer{
-        display: hide;
-    }
-}
 body,
         p,
         h1,
@@ -650,3 +627,29 @@ body,
         h6 {
             font-family: 'Oswald', sans-serif;
 }
+/*this is for bottom nav*/
+#footer{
+    text-align: center;
+    text-decoration-style: black;
+}
+@media (min-width: 300px) and (max-width: 780px) {
+        #footer {
+            display: block;
+            
+        }
+}
+@media (min-width: 781px){
+        #footer {
+            display: none;
+        }
+}
+ a {
+     text-decoration: none ;
+  }
+a:hover
+  {
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
+   }
+
