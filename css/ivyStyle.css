@@ -473,6 +473,11 @@ legend {
     box-shadow: -5px 5px 5px #aaa;
 }
 
+#f1_container:focus #f1_card {
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 5px #aaa;
+}
+
 .face {
     position: absolute;
     width: 100%;
@@ -480,7 +485,8 @@ legend {
     backface-visibility: hidden;
 }
 
-.face.back {
+.face.back,
+.face.back:focus {
     display: block;
     transform: rotateY(180deg);
     box-sizing: border-box;
@@ -585,68 +591,72 @@ legend {
     color: black;
     font-size: 15px;
 }
-.priceTag{
+
+.priceTag {
     width: 80%;
     margin: 0 auto;
-    border: 1px solid #C9C7C7; 
-    padding: 30px; 
+    border: 1px solid #C9C7C7;
+    padding: 30px;
     border-radius: 5px;
 }
-.tutorPackage{
+
+.tutorPackage {
     padding: 40px 20px;
     background-color: #F7DB86;
     margin-top: 30px;
 }
 
+
 /*bootstrap code*/
-.navBarRow
-{
-  margin-right: -15px;
-  margin-left: -15px;
-  padding-top: 5px;
-  padding-left: 5px;
-  background-color: #FFFFFF;
-  border-top-color: #000;
-  border-width: 30px;
-  
+
+.navBarRow {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: #FFFFFF;
+    border-top-color: #000;
+    border-width: 30px;
 }
-.mobileScale
-{
+
+.mobileScale {
     padding-left: 30%;
-    
 }
 
-.padding-custom{
-    padding-bottom:25px;
+.padding-custom {
+    padding-bottom: 25px;
 }
 
-.center-bio{
+.center-bio {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 .text-center {
-   padding-top: 5px;
-   padding-bottom: 5px;
-   text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
 }
 
 @media screen and (min-width: 480px) {
-    #footer{
+    #footer {
         display: block;
     }
 }
+
 @media screen and (min-width: 780px) {
-    #footer{
+    #footer {
         display: hide;
     }
 }
+
 body,
-        p,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-family: 'Oswald', sans-serif;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
 }
