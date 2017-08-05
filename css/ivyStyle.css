@@ -170,6 +170,10 @@ legend {
 
 /* Grow hover effect*/
 
+.hvr-highlight:hover {
+    background-color: gray;
+}
+
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
