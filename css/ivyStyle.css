@@ -597,7 +597,7 @@ border-radius: 3px;
         margin-left: -15px;
         padding-top: 5px;
         padding-left: 5px;
-        background-color: #FFFFFF;
+        background-color: black;
         border-top-color: #000;
         border-width: 30px;
     }
@@ -621,7 +621,7 @@ border-radius: 3px;
     .center-bio {
         margin-left: 10px;
         margin-right: 10px;
-        <<<<<<< HEAD padding: 10px;
+        padding: 10px;
     }
     
     .custom i {
@@ -663,8 +663,6 @@ border-radius: 3px;
         text-decoration-style: black;
     }
     
-    @media (min-width: 300px) and (max-width: 780px) {}
-    
     .custom {
         padding: 10px;
     }
@@ -687,7 +685,7 @@ border-radius: 3px;
         text-align: center;
     }
     
-    @media screen and (min-width: 480px) {
+/*    @media screen and (min-width: 480px) {
         #footer {
             display: block;
         }
@@ -697,11 +695,12 @@ border-radius: 3px;
         #footer {
             display: none;
         }
+    }
         @media screen and (min-width: 780px) {
             #footer {
                 display: hide;
             }
-        }
+        }*/
         body,
         p,
         h1,
@@ -718,6 +717,7 @@ border-radius: 3px;
             align-content: center;
             text-decoration-style: black;
             color: black;
+            background-color: black;
         }
         @media (min-width: 300px) and (max-width: 780px) {
             #footer {
@@ -729,6 +729,7 @@ border-radius: 3px;
             #footer {
                 display: none;
             }
+        }
             .item {
                 height: 500px;
                 width: 100%;
