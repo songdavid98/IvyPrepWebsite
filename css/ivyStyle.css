@@ -761,40 +761,45 @@ h6 {
 }
 
 
-        /*this is for bottom nav*/
-        #footer {
-            text-align: center;
-            align-content: center;
-            text-decoration-style: black;
-            color: black;
-        }
-        @media (min-width: 300px) and (max-width: 780px) {
-            #footer {
-                display: block;
-                color: black;
-            }
-        }
-        @media (min-width: 781px) {
-            #footer {
-                display: none;
-            }
-            .item {
-                height: 500px;
-                width: 100%;
-                background-size: contain;
-            }
-            .item img {
-                top: 0;
-                left: 0;
-                min-width: 100%;
-                height: 100%;
-            }
-        }
-        a {
-            text-decoration: none;
-        }
-        a:hover {
-            color: white;
-            text-decoration: none;
-            cursor: pointer;
-        }
+/*this is for bottom nav*/
+
+#footer {
+    text-align: center;
+    align-content: center;
+    text-decoration-style: black;
+    color: black;
+}
+
+@media (min-width: 300px) and (max-width: 780px) {
+    #footer {
+        display: block;
+        color: black;
+    }
+}
+
+@media (min-width: 781px) {
+    #footer {
+        display: none;
+    }
+    .item {
+        height: 500px;
+        width: 100%;
+        background-size: contain;
+    }
+    .item img {
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 100%;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
