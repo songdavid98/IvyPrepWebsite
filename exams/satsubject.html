@@ -24,7 +24,7 @@
         .jumbotron {
             text-align: justify;
         }
-
+        
     </style>
 </head>
 
@@ -114,38 +114,40 @@
             </div>
         </b>
     </div>
-
-    <div class="container underNav">
-        <center>
-            <div class="row">
-                <div class="col-md-1 col-md-offset-2 box" onclick="locationLink('#math1')">
-                    <h1>Math 1</h1>
-                </div>
-                <div class="col-md-1 box" onclick="locationLink('#math2')">
-                    <h1>Math 2</h1>
-                </div>
-                <div class="col-md-1 box" onclick="locationLink('#eng')">
-                    <h1>English</h1>
-                </div>
-                <div class="col-md-1 box" onclick="locationLink('#bio')">
-                    <h1>Biology</h1>
-                </div>
-                <div class="col-md-1 box" onclick="locationLink('#chem')">
-                    <h1>Chemistry</h1>
-                </div>
-                <div class="col-md-1 box" onclick="locationLink('#phy')">
-                    <h1>Physics</h1>
-                </div>
-                <div class="col-md-1 box" onclick="locationLink('#US')">
-                    <h1>US History</h1>
-                </div>
-                <div class="col-md-1 box" onclick="locationLink('#world')">
-                    <h1>World History</h1>
-                </div>
-            </div>
-        </center>
+<div class="container">
+  <div class="jumbotron">
+    <h1>Please choose a Subject Test</h1>      
+    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+    <div class="row">
+        <div class="col-md-1 col-ls-4 col-xs-6 col-lg-offset-1 col-md-offset-0 satSub" onclick="locationLink('#math1')">
+            <h1>Math 1</h1>
+        </div>
+        <div class="col-md-1 col-ls-4 col-xs-6 satSub" onclick="locationLink('#math2')">
+            <h1>Math 2</h1>
+        </div>
+        <div class="col-md-1 col-ls-4 col-xs-6 satSub" onclick="locationLink('#eng')">
+            <h1>English</h1>
+        </div>
+        <div class="col-md-1 col-ls-4 col-xs-6 satSub" onclick="locationLink('#bio')">
+            <h1>Biology</h1>
+        </div>
+        <div class="col-md-1 col-ls-4 col-xs-6 satSub" onclick="locationLink('#chem')">
+            <h1>Chemistry</h1>
+        </div>
+        <div class="col-md-1 col-ls-4 col-xs-6 satSub" onclick="locationLink('#phy')">
+            <h1>Physics</h1>
+        </div>
+        <div class="col-md-1 col-ls-4 col-xs-6 satSub" onclick="locationLink('#US')">
+            <h1>U.S. History</h1>
+        </div>
+        <div class="col-md-1 col-ls-4 col-xs-6 satSub" onclick="locationLink('#World')">
+            <h1>World History</h1>
+        </div>
     </div>
 
+  </div>
+   
+</div>
     <div class="container">
         <div class="animatedParent animateOnce">
             <style>
@@ -161,7 +163,7 @@
                 <div class="col-md-12">
                     <div class="jumbotron jumbotron-fluid">
                         <div class="container">
-                            <h1 class="display-3">SAT Subject Test: Math 1</h1>
+                            <h1 class="display-1">SAT Subject Test: Math 1</h1>
                             <p class="lead">The Mathematics Level 1 Subject Test assesses the knowledge you’ve gained from three years of college-preparatory mathematics</p>
                         </div>
                     </div>
@@ -292,10 +294,25 @@
             </div>
         </div>
     </footer>
+<div id="footer">
+    <div class="container col-xs-12 navbar-inverse navbar-fixed-bottom" class="test1">
+        <div class="row navBarRow" id="bottomNav">
+            <div class=" custom text-center myBox" style="display: inline-block;"><a href="Courses.html"><i class="glyphicon glyphicon-file"></i><br><p>Tests</p></a> </div>
+            <div class="  custom text-center myBox" style="display: inline-block;"><a href="Service.html"><i class="glyphicon glyphicon-list"></i><br><p>Programs</p></a></div>
+            <div class=" custom text-center myBox" style="display: inline-block;"><a href="../AboutUs.html"><i class="glyphicon glyphicon-option-horizontal"></i><br><p>About Us</p></a></div>
+            <div class=" custom text-center myBox" style="display: inline-block;"><a href="../AboutUs.html"><i class="glyphicon glyphicon-earphone"></i><br><p>Contact</p></a></div>
+        </div>
+    </div>
+</div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="../css3-animate-it-master/js/css3-animate-it.js"></script>
 <script type="text/javascript" src="../js/generalscript.js"></script>
-
+<script type="text/javascript">
+    $(".myBox").click(function() {
+  window.location = $(this).find("a").attr("href"); 
+  return false;
+});
+</script>
 </html>
