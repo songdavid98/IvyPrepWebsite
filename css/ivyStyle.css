@@ -23,21 +23,21 @@
     }
     
     .About {
-        height: 400px;
+        height: 380px;
         width: 100%;
         border: solid 1px black;
         background-color: white;
     }
     
     .Challenge {
-        height: 400px;
+        height: 380px;
         width: 100%;
         border: solid 1px black;
         background-color: white;
     }
     
     .courseSelection {
-        height: 400px;
+        height: 380px;
         width: 100%;
         border: solid 1px black;
         background-color: white;
@@ -255,7 +255,15 @@ color: black;
         border: 3px solid navy;
         border-radius: 1px;
     }
-    
+    .title-red{
+        background-color: red;
+        color: white;
+        padding: 1px;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-top: -15px;
+        border-radius: 4px;
+    }
     .title-blue {
         background-color: #3585ED;
         color: white;
@@ -367,6 +375,9 @@ border-radius: 3px;
     
     .up4 {
         border-color: transparent transparent #41AC30 transparent;
+    }
+    .up5{
+        border-color: transparent transparent red transparent;
     }
     
     .up span {
@@ -731,7 +742,7 @@ border-radius: 3px;
             }
         }
             .item {
-                height: 500px;
+                height: 400px;
                 width: 100%;
                 background-size: contain;
             }
@@ -750,3 +761,9 @@ border-radius: 3px;
             text-decoration: none;
             cursor: pointer;
         }
+.subjectTitles{
+    font-size: 30px;
+    width: 100%
+    background-color: red;
+    padding: 10px;
+}
