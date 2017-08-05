@@ -23,21 +23,21 @@ body {
 }
 
 .About {
-    height: 55%;
+    height: 430px;
     width: 100%;
     border: solid 1px black;
     background-color: white;
 }
 
 .Challenge {
-    height: 55%;
+    height: 430px;
     width: 100%;
     border: solid 1px black;
     background-color: white;
 }
 
 .courseSelection {
-    height: 55%;
+    height: 430px;
     width: 100%;
     border: solid 1px black;
     background-color: white;
