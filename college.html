@@ -8,16 +8,7 @@
     <link rel="stylesheet" type="text/css" href="../css/ivyStyle.css">
     <link rel="stylesheet" type="text/css" href="../css/animations.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <style type="text/css">
-        h1,
-        h2,
-        h3 {
-            line-height: 60px;
-        }
-
-    </style>
 </head>
-
 <body>
     <nav class="navbar navbar-inverse" style="position: fixed; z-index: 1; width: 100%;">
         <div class="container">
@@ -50,7 +41,7 @@
                                     <li><a href="exams/sat.html">SAT</a></li>
                                     <li><a href="exams/act.html">ACT</a></li>
                                     <li><a href="exams/psat.html">PSAT</a></li>
-                                    <li><a href="exams/hsat.html">SHSAT</a></li>
+                                    <li><a href="exams/shsat.html">SHSAT</a></li>
                                     <li><a href="exams/hunter.html">HUNTER</a></li>
                                 </ul>
                             </li>
@@ -223,33 +214,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="css3-animate-it-master/js/css3-animate-it.js"></script>
-<script type="text/javascript">
-    function getBrowserSize() {
-        var w, h;
-
-        if (typeof window.innerWidth != 'undefined') {
-            w = window.innerWidth; //other browsers
-            h = window.innerHeight;
-        } else if (typeof document.documentElement != 'undefined' && typeof document.documentElement.clientWidth != 'undefined' && document.documentElement.clientWidth != 0) {
-            w = document.documentElement.clientWidth; //IE
-            h = document.documentElement.clientHeight;
-        } else {
-            w = document.body.clientWidth; //IE
-            h = document.body.clientHeight;
-        }
-        return {
-            'width': w,
-            'height': h
-        };
-    }
-    if (parseInt(getBrowserSize().width) > 1080) {
-        document.getElementById("footer").style.display = "none";
-    } else if (parseInt(getBrowserSize().width) < 780) {
-        document.getElementById("footer").style.display = "block";
-    } else {
-        console.log("somtehing went wrong");
-    }
-
-</script>
+<script type="text/javascript " src="js/generalscript.js "></script>
 
 </html>

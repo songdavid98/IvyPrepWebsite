@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/ivyStyle.css">
     <link rel="stylesheet" type="text/css" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 
 <body>
@@ -40,7 +41,7 @@
                                     <li><a href="exams/sat.html">SAT</a></li>
                                     <li><a href="exams/act.html">ACT</a></li>
                                     <li><a href="exams/psat.html">PSAT</a></li>
-                                    <li><a href="exams/hsat.html">SHSAT</a></li>
+                                    <li><a href="exams/shsat.html">SHSAT</a></li>
                                     <li><a href="exams/hunter.html">HUNTER</a></li>
                                 </ul>
                             </li>
@@ -152,33 +153,6 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<!-- for the contact form -->
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('#characterLeft').text('200 characters left');
-        $('#message').keydown(function() {
-            var max = 200;
-            var len = $(this).val().length;
-            if (len >= max) {
-                $('#characterLeft').text('You have reached the limit');
-                $('#characterLeft').addClass('red');
-                $('#btnSubmit').addClass('disabled');
-            } else {
-                var ch = max - len;
-                $('#characterLeft').text(ch + ' characters left');
-                $('#btnSubmit').removeClass('disabled');
-                $('#characterLeft').removeClass('red');
-            }
-        });
-    });
-
-</script>
-<script>
-    function newsLink() {
-        location.href = "newsLetter.html";
-    }
-
-</script>
 <script type="text/javascript" src="css3-animate-it-master/js/css3-animate-it.js"></script>
-
+<script type="text/javascript " src="js/generalscript.js "></script>
 </html>

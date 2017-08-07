@@ -22,3 +22,13 @@ function swap(classname, idname) {
         }
     }
 }
+// this is for clicable buttons on buttom
+$(".myBox").click(function() {
+  window.location = $(this).find("a").attr("href"); 
+  return false;
+});
+
+//this is for the carousel
+$('.carousel').carousel({
+        interval: 4500
+});
