@@ -22,22 +22,10 @@ body {
     width: 100%;
 }
 
-.About {
-    height: 430px;
-    width: 100%;
-    border: solid 1px black;
-    background-color: white;
-}
-
-.Challenge {
-    height: 430px;
-    width: 100%;
-    border: solid 1px black;
-    background-color: white;
-}
-
+.About,
+.Challenge,
 .courseSelection {
-    height: 430px;
+    height: 400px;
     width: 100%;
     border: solid 1px black;
     background-color: white;
@@ -242,7 +230,7 @@ legend {
 /*This image is free*/
 
 .emails {
-/*    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../images/email.png");*/
+    /*    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../images/email.png");*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -379,7 +367,7 @@ border-radius: 3px;
     width: 0px;
     height: 0px;
     border-style: inset;
-    border-width: 0 110px 100px 110px;
+    border-width: 0 90px 90px 90px;
     float: 0 auto;
     transform: rotate(180deg);
     display: block;
@@ -394,7 +382,7 @@ border-radius: 3px;
 }
 
 .up3 {
-    border-color: transparent transparent #D27F25 transparent;
+    border-color: transparent transparent #F38A01 transparent;
 }
 
 .up4 {
@@ -620,7 +608,7 @@ border-radius: 3px;
 }
 
 .priceTag {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     border: 1px solid #C9C7C7;
     padding: 30px;
