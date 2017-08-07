@@ -462,13 +462,13 @@ border-radius: 3px;
     position: relative;
     margin: 10px auto;
     width: 300px;
-    height: 280px;
+    height: 295px;
     z-index: 1;
 }
 
 #f1_container {
     perspective: 1000;
-    width: 20%;
+    width: 32%;
 }
 
 #f1_card {
@@ -509,7 +509,7 @@ border-radius: 3px;
     box-sizing: border-box;
     padding: 10px;
     color: black;
-    text-align: center;
+    text-align: left;
     background-color: white;
 }
 
