@@ -25,6 +25,8 @@ body {
 .About,
 .Challenge,
 .courseSelection {
+    max-width: 400px;
+    min-width: 200px;
     height: 400px;
     width: 100%;
     border: solid 1px black;
