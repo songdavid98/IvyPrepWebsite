@@ -508,7 +508,7 @@ border-radius: 3px;
     transform: rotateY(180deg);
     box-sizing: border-box;
     padding: 10px;
-    color: white;
+    color: black;
     text-align: center;
     background-color: white;
 }
