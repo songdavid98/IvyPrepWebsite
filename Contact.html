@@ -68,7 +68,14 @@
         <div class="row animatedParent animateOnce">
             <div class="col-md-6 col-md-offset-1 animated fadeInLeftShort">
                 <div class="form-area">
-                    <form role="form" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSftjDByF43aqe0TfyQ8gmXYy_c_NhtRf4YMPZh5BTuKSmmk-Q/formResponse">
+
+                    <!--                    See this link to learn how to do this cool trick! https://blog.webjeda.com/google-form-customize/-->
+                    <script type="text/javascript">
+                        var submitted = false;
+
+                    </script>
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='thankyou.html';}"></iframe>
+                    <form role="form" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSftjDByF43aqe0TfyQ8gmXYy_c_NhtRf4YMPZh5BTuKSmmk-Q/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
                         <br style="clear:both">
                         <h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
                         <div class="form-group">
@@ -156,4 +163,5 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="css3-animate-it-master/js/css3-animate-it.js"></script>
 <script type="text/javascript " src="js/generalscript.js "></script>
+
 </html>
