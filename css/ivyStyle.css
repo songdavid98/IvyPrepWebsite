@@ -461,8 +461,9 @@ border-radius: 3px;
 #f1_container {
     position: relative;
     margin: 10px auto;
-    width: 300px;
-    height: 295px;
+    height: 250px;
+    max-width: 400px;
+    min-width: 225px;
     z-index: 1;
 }
 
