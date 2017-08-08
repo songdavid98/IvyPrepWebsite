@@ -366,8 +366,9 @@ border-radius: 3px;
     border-top: 2px solid GREY;
     border-right: 2px solid GREY;
     border-bottom: 2px solid GREY;
-    padding-top: 40px;
+    padding-top: 50px;
     font-size: 14px;
+    text-align: center;
 }
 
 .hideme {
