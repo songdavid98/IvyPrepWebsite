@@ -66,18 +66,9 @@
 
     <div class="container" style="margin-top: 40px; margin-bottom: 40px;">
         <div class="row animatedParent animateOnce">
-
-            <h2 style="text-align: center; margin-bottom: 40px;">Contact Us!</h2>
-
-            <div class="col-md-6 col-md-offset-1 animated fadeInLeftShort" style="margin-bottom: 15px;">
+            <div class="col-md-6 col-md-offset-1 animated fadeInLeftShort">
                 <div class="form-area">
-
-                    <!--                    See this link to learn how to do this cool trick! https://blog.webjeda.com/google-form-customize/-->
-                    <script type="text/javascript">
-                        var submitted = false;
-                    </script>
-                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='thankyou.html';}"></iframe>
-                    <form role="form" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSftjDByF43aqe0TfyQ8gmXYy_c_NhtRf4YMPZh5BTuKSmmk-Q/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
+                    <form role="form" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSftjDByF43aqe0TfyQ8gmXYy_c_NhtRf4YMPZh5BTuKSmmk-Q/formResponse">
                         <br style="clear:both">
                         <h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
                         <div class="form-group">
@@ -102,20 +93,20 @@
                 </div>
             </div>
             <!-- location and email information -->
-            <div class="col-md-4 otherInfo animated fadeInRightShort" style="padding-top: 40px; margin-bottom: 15px;">
-                <center>
-                    <p>Email: <br>info@ivyprepschool.com </p>
-                    <p>Phone: <br> +1 (718) 261 4882</p>
-                    <p>Please Visit: <br>IvyPrep Forest Hills 108-21 72nd Avenue Forest Hills, NY 11375</p>
-                    <br>
-                    <img src="http://www.genderroadcc.com/hp_wordpress/wp-content/uploads/2016/03/Newsletter-Icon.png" style="height: 200px;width: 200px; ">
-                    <form style="margin-top: 22px; margin-bottom: 30px;">
-                        <h7 style="font-size: 30px;font-weight: bold; color: black;">Subscribe to our Newsletters!</h7>
-                        <div class="row">
-                            <input type="button" class="btn btn-info hvr-grow" value="Sign Up!" onclick="locationLink('newsletter.html#newsletter')" style="margin-top: 11px;">
-                        </div>
-                    </form>
-                </center>
+            <div class="col-md-4 otherInfo animated fadeInRightShort">
+                <p>Email: <br>info@ivyprepschool.com </p>
+                <p>Phone: <br> +1 (718) 261 4882</p>
+                <p>Please Visit: <br>IvyPrep Forest Hills 108-21 72nd Avenue Forest Hills, NY 11375
+                </p>
+                <div>
+                    <center><img src="http://www.genderroadcc.com/hp_wordpress/wp-content/uploads/2016/03/Newsletter-Icon.png" style="height: 200px;width: 200px; "></center>
+                    <center>
+                        <form style="margin-top: 22px; margin-bottom: 30px;">
+                            <h7 style="font-size: 30px;font-weight: bold; color: black;">Subscribe to our Newsletters!</h7>
+                            <input type="button" class="btn btn-info hvr-grow" value="Sign Up!" onclick="newsLink()">
+                        </form>
+                    </center>
+                </div>
             </div>
         </div>
     </div>
@@ -164,5 +155,4 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="css3-animate-it-master/js/css3-animate-it.js"></script>
 <script type="text/javascript " src="js/generalscript.js "></script>
-
 </html>

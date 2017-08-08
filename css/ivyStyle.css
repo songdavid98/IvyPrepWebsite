@@ -22,12 +22,22 @@ body {
     width: 100%;
 }
 
-.About,
-.Challenge,
+.About {
+    height: 430px;
+    width: 100%;
+    border: solid 1px black;
+    background-color: white;
+}
+
+.Challenge {
+    height: 430px;
+    width: 100%;
+    border: solid 1px black;
+    background-color: white;
+}
+
 .courseSelection {
-    max-width: 400px;
-    min-width: 200px;
-    height: 400px;
+    height: 430px;
     width: 100%;
     border: solid 1px black;
     background-color: white;
@@ -62,7 +72,7 @@ ul li a {
 }
 
 .box {
-    padding: 15px;
+    padding: 20px;
 }
 
 .box:hover {
@@ -79,6 +89,7 @@ ul li a {
 }
 
 .newsletters {
+    background-image: url("images/email.png");
     background-color: white;
     height: 400px;
     width: 100%;
@@ -152,7 +163,7 @@ p {
 }
 
 legend {
-    color: black;
+    color: white;
     font-size: 25px;
     text-align: center;
 }
@@ -232,15 +243,15 @@ legend {
 /*This image is free*/
 
 .emails {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../images/email.png");
+/*    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../images/email.png");*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-bottom: 15px;
-    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-top: 100px;
     z-index: -1;
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .courses {
@@ -279,7 +290,7 @@ legend {
 }
 
 .title-red {
-    background-color: #E21522;
+    background-color: red;
     color: white;
     padding: 1px;
     margin-left: -15px;
@@ -369,7 +380,7 @@ border-radius: 3px;
     width: 0px;
     height: 0px;
     border-style: inset;
-    border-width: 0 90px 90px 90px;
+    border-width: 0 110px 100px 110px;
     float: 0 auto;
     transform: rotate(180deg);
     display: block;
@@ -384,13 +395,15 @@ border-radius: 3px;
 }
 
 .up3 {
-    border-color: transparent transparent #F38A01 transparent;
+    border-color: transparent transparent #D27F25 transparent;
 }
 
 .up4 {
     border-color: transparent transparent #41AC30 transparent;
 }
-
+.up5 {
+    border-color: transparent transparent red transparent;
+}
 .up span {
     text-align: center;
     left: -47px;
@@ -461,15 +474,14 @@ border-radius: 3px;
 #f1_container {
     position: relative;
     margin: 10px auto;
-    height: 250px;
-    max-width: 400px;
-    min-width: 225px;
+    width: 300px;
+    height: 240px;
     z-index: 1;
 }
 
 #f1_container {
     perspective: 1000;
-    width: 32%;
+    width: 20%;
 }
 
 #f1_card {
@@ -509,8 +521,8 @@ border-radius: 3px;
     transform: rotateY(180deg);
     box-sizing: border-box;
     padding: 10px;
-    color: black;
-    text-align: left;
+    color: white;
+    text-align: center;
     background-color: white;
 }
 
@@ -611,8 +623,7 @@ border-radius: 3px;
 }
 
 .priceTag {
-    min-width: 220px;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     border: 1px solid #C9C7C7;
     padding: 30px;
@@ -752,6 +763,7 @@ h6 {
     font-family: 'Oswald', sans-serif;
 }
 
+<<<<<<< HEAD
 /*this is for bottom nav*/
 
 #footer {
