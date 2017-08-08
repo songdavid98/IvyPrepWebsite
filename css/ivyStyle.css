@@ -22,22 +22,11 @@ body {
     width: 100%;
 }
 
-.About {
-    height: 430px;
-    width: 100%;
-    border: solid 1px black;
-    background-color: white;
-}
-
-.Challenge {
-    height: 430px;
-    width: 100%;
-    border: solid 1px black;
-    background-color: white;
-}
-
+.About,
+.Challenge,
 .courseSelection {
     height: 430px;
+    max-width: 400px;
     width: 100%;
     border: solid 1px black;
     background-color: white;
