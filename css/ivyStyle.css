@@ -368,7 +368,7 @@ border-radius: 3px;
     width: 0px;
     height: 0px;
     border-style: inset;
-    border-width: 0 110px 100px 110px;
+    border-width: 0 90px 90px 90px;
     float: 0 auto;
     transform: rotate(180deg);
     display: block;
@@ -614,7 +614,7 @@ border-radius: 3px;
 }
 
 .priceTag {
-    width: 80%;
+    width: 99%;
     margin: 0 auto;
     border: 1px solid #C9C7C7;
     padding: 30px;
