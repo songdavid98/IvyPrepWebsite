@@ -8,7 +8,6 @@
     <link rel="stylesheet" type="text/css" href="css/ivyStyle.css">
     <link rel="stylesheet" type="text/css" href="css/animations.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-
 </head>
 
 <body>
@@ -63,8 +62,10 @@
 
     </nav>
     <!--    TOP NAVBAR-->
-<div style="height: 51px;"></div>
-<div id="navStuff"></div>
+
+    <!-- /.container-fluid -->
+    <div style="height: 51px;"></div>
+
     <div style="width: 100%;">
         <div class="row">
             <div class="container-fluid" style="height: 80%">
@@ -80,7 +81,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="images/frontBuilding.jpg" alt="First" />
+                                <img src="http://supportconnection.org/wp-content/uploads/books.jpg" alt="First" />
                                 <div class="carousel-caption">
                                     <h1 style="font-size: 35px;">This is a title</h1>
                                     <p style="font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
@@ -109,19 +110,19 @@
     <div class="container underNav">
         <CENTER>
             <div class="row">
-                <div class="col-md-2 col-md-offset-1 box" onclick="locationLink('exams/sat.html')">
+                <div class="col-md-2 col-md-offset-1 box col-xs-2 col-xs-offset-1" onclick="locationLink('exams/sat.html')">
                     <h1>SAT</h1>
                 </div>
-                <div class="col-md-2 box" onclick="locationLink('exams/act.html')">
+                <div class="col-md-2 box col-xs-2" onclick="locationLink('exams/act.html')">
                     <h1>ACT</h1>
                 </div>
-                <div class="col-md-2 box" onclick="locationLink('exams/shsat.html')">
+                <div class="col-md-2 box col-xs-2" onclick="locationLink('exams/shsat.html')">
                     <h1>SHSAT</h1>
                 </div>
-                <div class="col-md-2 box" onclick="locationLink('exams/hunter.html')">
+                <div class="col-md-2 box col-xs-2" onclick="locationLink('exams/hunter.html')">
                     <h1>Hunter</h1>
                 </div>
-                <div class="col-md-2 box" onclick="locationLink('exams/psat.html')">
+                <div class="col-md-2 box col-xs-2" onclick="locationLink('exams/psat.html')">
                     <h1>PSAT</h1>
                 </div>
             </div>
@@ -129,35 +130,41 @@
     </div>
     <!-- 3 divs and dropdown stuff -->
     <center>
-        <div class="container " style="padding: 50px;width:;">
+        <div class="container " style="margin-top: 30px;">
             <div class="row">
                 <div class="animatedParent animateOnce" data-sequence='100' data-appear-top-offset='-100'>
                     <div class="col-md-4 animated fadeInLeftShort" data-id='1'>
                         <div class="About">
-                            <img src="http://study.com/cimages/multimages/16/teachers-classroom-chalkboard-math.jpg" style="height: 45%; width: 100%; margin-bottom: 30px;">
+                            <img src="http://study.com/cimages/multimages/16/teachers-classroom-chalkboard-math.jpg" style="height: 50%; width: 100%;">
                             <h2>About Us</h2>
                             <p>This is a sentence</p>
                             <p> This is another sentence</p>
                             <form action="AboutUs.html">
-                            <button class="btn btn-danger hvr-grow">Find out</button>
+                                <button class="btn btn-danger hvr-grow">Find out</button>
                             </form>
                         </div>
                     </div>
 
                     <div class="col-md-4 animated fadeIn" data-sequence='100' data-id='2' data-appear-top-offset='-100'>
                         <div class="Challenge">
-                            <img src="https://www.usnews.com/dims4/USNEWS/9091928/2147483647/thumbnail/970x647/quality/85/?url=%2Fcmsmedia%2F06%2F95%2F7f109a724441afe4612e0b4ffb9f%2F140822-highschool-stock.jpg" style="height: 45%; width: 100%; margin-bottom: 30px;">
+                            <img src="https://www.usnews.com/dims4/USNEWS/9091928/2147483647/thumbnail/970x647/quality/85/?url=%2Fcmsmedia%2F06%2F95%2F7f109a724441afe4612e0b4ffb9f%2F140822-highschool-stock.jpg" style="height: 50%; width: 100%;">
                             <h2 sty>Challenge Yourself!</h2>
                             <p>This is a sentence</p>
                             <p> This is another sentence</p>
-                            <form action="event.html">
-                            <button class="btn btn-danger hvr-grow">Find out</button>
-                            </form>
+                            <div class="btn-group dropdown">
+                                <button class="btn btn-primary dropdown-toggle hvr-grow" type="button" data-toggle="dropdown">Tests
+                                    <span class="caret"></span></button>
+                                <ul class="dropdown-menu" style="z-index: 3">
+                                    <li><a href="#">HTML</a></li>
+                                    <li><a href="#">CSS</a></li>
+                                    <li><a href="#">JavaScript</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-4 animated fadeInRightShort" data-sequence='100' data-id='3' data-appear-top-offset='-100'>
                         <div class="courseSelection">
-                            <img src="http://www.thelearningcurveacademy.com/wp-content/uploads/2016/05/SAT-Books.jpg" style="height: 45%; width:100%; margin-bottom: 30px;">
+                            <img src="http://www.thelearningcurveacademy.com/wp-content/uploads/2016/05/SAT-Books.jpg" style="height: 50%; width:100%;">
                             <h2> Check out our courses</h2>
                             <p>This is a sentence</p>
                             <p> This is another sentence</p>
@@ -189,7 +196,7 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="news">
-                                    <!-- This is where each section for events starts -->
+                                        <!-- This is where each section for events starts -->
                                         <div class="row">
                                             <div class="col-md-2 col-md-offset-1" style="margin-top: 10px;">
                                                 <img src="http://images.gawker.com/z1m6flcbprudbt1mkf0c/c_scale,fl_progressive,q_80,w_800.jpg" class="img-circle" style="height: 60px;width: 60px;">
@@ -295,23 +302,8 @@
         </div>
     </div>
 </body>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
-<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "></script>
-<script type="text/javascript" src="css3-animate-it-master/js/css3-animate-it.js "></script>
-<script type="text/javascript" src="js/generalscript.js "></script>
-<!-- This stuff is to have a navbar for everpage
-
-$(function()
-{
-        $("#navStuff").load("navBarMain.html", function(responseText, statusText, xhr)
-        {
-                if(statusText == "success")
-                        alert("Successfully loaded the content!");
-                if(statusText == "error")
-                        alert("An error occurred: " + xhr.status + " - " + xhr.statusText);
-        });
-});
-</script> -->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
+<script type="text/javascript " src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "></script>
+<script type="text/javascript " src="css3-animate-it-master/js/css3-animate-it.js "></script>
+<script type="text/javascript " src="js/generalscript.js "></script>
 </html>
