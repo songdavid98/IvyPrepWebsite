@@ -396,12 +396,12 @@ border-radius: 3px;
 
 .up span {
     text-align: center;
-    left: -47px;
+    left: -40px;
     top: 25px;
     position: relative;
     width: 93px;
     height: 63px;
-    margin: 0px;
+    margin-top: 0px;
     transform: rotate(180deg);
     display: inline-block;
     text-decoration: none;
