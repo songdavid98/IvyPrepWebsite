@@ -86,7 +86,7 @@ ul li a {
 footer {
     /*    height: 300px;*/
     width: 100%;
-    padding-bottom: 25px;
+    padding-bottom: 60px;
     background-color: grey;
 }
 
@@ -136,15 +136,6 @@ a.anchormargin {
     position: relative;
     visibility: hidden;
 }
-
-
-/*footer {
-background-color: steelblue;
-width: 100%;
-margin-top:50px; 
-padding:25px;
-color: black;
-}*/
 
 p {
     font-family: monospace;
