@@ -6,7 +6,6 @@
     <title>IvyPrep-Apply</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="css/ivyStyle.css">
-    <link rel="stylesheet" type="text/css" href="css/animations.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 
@@ -67,209 +66,208 @@
     <div style="height: 10px;"></div>
 
 
-        <div class="container" style="margin-top: 75px; background-image: url(images/paper.png);">
-            <div class="col-md-8 col-md-offset-2" style="font-size: 20px; padding: 80px">
-                <h1 style="font-size: 50px;">Enter this form to apply to our great programs!</h1>
-                <br>
+    <div class="container" style="margin-top: 75px; background-image: url(images/paper.png);">
+        <div class="col-md-8 col-md-offset-2" style="font-size: 20px; padding: 80px">
+            <h2 style="font-size: 50px;">Enter this form to apply to our great programs!</h2>
+            <br>
 
-                <!--                    See this link to learn how to do this cool trick! https://blog.webjeda.com/google-form-customize/-->
-                <script type="text/javascript">
-                    var submitted = false;
+            <!--                    See this link to learn how to do this cool trick! https://blog.webjeda.com/google-form-customize/-->
+            <script type="text/javascript">
+                var submitted = false;
+            </script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='thankyou.html';}"></iframe>
 
-                </script>
-                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='thankyou.html';}"></iframe>
-
-                <form id="applyform" class="form" action="https://docs.google.com/forms/d/e/1FAIpQLScxLJBh4n6Y7-P30miLjJWYH_YRVeVVDQM8p3Qp20vcihfSeA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;" style="margin-left: 30px;">
+            <form id="applyform" class="form" action="https://docs.google.com/forms/d/e/1FAIpQLScxLJBh4n6Y7-P30miLjJWYH_YRVeVVDQM8p3Qp20vcihfSeA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;" style="margin-left: 30px;">
 
 
-                    <fieldset>
-                        <legend>Student Information:</legend>
+                <fieldset>
+                    <legend>Student Information:</legend>
 
-                        <label>Student's First Name:</label>
-                        <input name="entry.1020975406" type="text" placeholder="Enter first name here" required style="color:black;" autofocus/>
-                        <br><br>
+                    <label>Student's First Name:</label>
+                    <input name="entry.1020975406" type="text" placeholder="Enter first name here" required style="color:black;" autofocus/>
+                    <br><br>
 
-                        <label>Student's Last Name:</label>
-                        <input name="entry.1694085656" type="text" placeholder="Enter last name here" required style="color: black;" />
-                        <br><br>
+                    <label>Student's Last Name:</label>
+                    <input name="entry.1694085656" type="text" placeholder="Enter last name here" required style="color: black;" />
+                    <br><br>
 
-                        <label>Student's Gender:</label><br>
-                        <input name="entry.200207210" type="radio" value="Male" required style="color: black;" onclick="document.getElementById('genderother').disabled=true;
+                    <label>Student's Gender:</label><br>
+                    <input name="entry.200207210" type="radio" value="Male" required style="color: black;" onclick="document.getElementById('genderother').disabled=true;
                                             document.getElementById('genderother').value=''" />Male<br>
-                        <input name="entry.200207210" type="radio" value="Female" style="color: black;" onclick="document.getElementById('genderother').disabled=true;
+                    <input name="entry.200207210" type="radio" value="Female" style="color: black;" onclick="document.getElementById('genderother').disabled=true;
                                             document.getElementById('genderother').value=''" />Female<br>
-                        <input name="entry.200207210" type="radio" value="__other_option__" style="color: black;" onclick="document.getElementById('genderother').disabled=false;
+                    <input name="entry.200207210" type="radio" value="__other_option__" style="color: black;" onclick="document.getElementById('genderother').disabled=false;
                                             document.getElementById('genderother').focus();" />Other:
-                        <input name="entry.200207210.other_option_response" type="text" placeholder="Enter if applicable" style="color:black;" id="genderother" disabled/>
-                        <br><br>
+                    <input name="entry.200207210.other_option_response" type="text" placeholder="Enter if applicable" style="color:black;" id="genderother" disabled/>
+                    <br><br>
 
-                        <label>Student's Birthdate (mm/dd/yyyy):</label>
-                        <input name="entry.684742522" type="date" required style="color: black;" />
-                        <br><br>
+                    <label>Student's Birthdate (mm/dd/yyyy):</label>
+                    <input name="entry.684742522" type="date" required style="color: black;" />
+                    <br><br>
 
-                        <label>School:</label>
-                        <input name="entry.1658868481" type="text" placeholder="Enter school" required style="color: black;" />
-                        <br><br>
+                    <label>School:</label>
+                    <input name="entry.1658868481" type="text" placeholder="Enter school" required style="color: black;" />
+                    <br><br>
 
-                        <label>Grade:</label>
-                        <input name="entry.150528503" type="text" placeholder="Enter grade" required style="color: black;" />
-                        <br><br>
+                    <label>Grade:</label>
+                    <input name="entry.150528503" type="text" placeholder="Enter grade" required style="color: black;" />
+                    <br><br>
 
-                    </fieldset>
+                </fieldset>
 
 
-                    <fieldset>
-                        <legend>Student's Contact Information:</legend>
-                        <label>Student's Email:</label>
-                        <input name="entry.1667717449" type="email" placeholder="Enter here" style="color: black;" />
-                        <br><br>
+                <fieldset>
+                    <legend>Student's Contact Information:</legend>
+                    <label>Student's Email:</label>
+                    <input name="entry.1667717449" type="email" placeholder="Enter here" style="color: black;" />
+                    <br><br>
 
-                        <label>Student's Phone (mobile):</label>
-                        <input name="entry.1668194677" type="text" placeholder="Enter Phone Number" style="color: black;" />
-                        <br><br>
-                    </fieldset>
+                    <label>Student's Phone (mobile):</label>
+                    <input name="entry.1668194677" type="text" placeholder="Enter Phone Number" style="color: black;" />
+                    <br><br>
+                </fieldset>
 
-                    <fieldset>
-                        <legend>Select all programs the student is signing up for</legend>
-                        <input name="entry.1323686941" type="checkbox" value="SAT/PSAT" style="color: black;" />
-                        <label>SAT/PSAT</label>
-                        <br>
-                        <input name="entry.1323686941" type="checkbox" value="SAT Subject Test" style="color: black;" />
-                        <label>SAT Subject Test</label>
-                        <br>
-                        <input name="entry.1323686941" type="checkbox" value="SHSAT" style="color: black;" />
-                        <label>Specialized High School Admissions Test (SHSAT)</label>
-                        <br>
-                        <input name="entry.1323686941" type="checkbox" value="HCHS" style="color: black;" />
-                        <label>Hunter College High School Entrance Exam</label>
-                        <br>
-                        <input name="entry.1323686941" type="checkbox" value="SSAT/ISEE/TACHS" style="color: black;" />
-                        <label>SSAT/ISEE/TACHS</label>
-                        <br>
-                        <input name="entry.1323686941" type="checkbox" value="College Admissions Counseling" style="color: black;" />
-                        <label>College Admissions Counseling</label>
-                        <br>
-                        <input name="entry.1323686941" type="checkbox" value="School Subject/AP" style="color: black;" />
-                        <label>School Subject/AP</label>
-                        <br>
-                        <input name="entry.1323686941" type="checkbox" value="NYS Regents" style="color: black;" />
-                        <label>NYS Regents</label>
-                        <br>
-                        <input name="entry.1323686941" type="checkbox" value="NY Statewide/ELA" style="color: black;" />
-                        <label>NY Statewide/ELA</label>
-                        <br>
-                        <input name="entry.1323686941" type="checkbox" value="English/Writing/Math Enrichment" style="color: black;" />
-                        <label>English/Writing/Math Enrichment</label>
-                        <br>
-                        <input name="entry.1323686941" type="checkbox" value="LSAT" style="color: black;" />
-                        <label>LSAT</label>
-                        <br>
-                        <input name="entry.1323686941" type="checkbox" value="MCAT" style="color: black;" />
-                        <label>MCAT</label>
-                        <br>
-                        <input name="entry.1323686941" type="checkbox" value="GMAT" style="color: black;" />
-                        <label>GMAT</label>
-                        <br>
-                        <input name="entry.1323686941" type="checkbox" value="__other_option__" onclick="document.getElementById('programother').disabled^=1;
+                <fieldset>
+                    <legend>Select all programs the student is signing up for</legend>
+                    <input name="entry.1323686941" type="checkbox" value="SAT/PSAT" style="color: black;" />
+                    <label>SAT/PSAT</label>
+                    <br>
+                    <input name="entry.1323686941" type="checkbox" value="SAT Subject Test" style="color: black;" />
+                    <label>SAT Subject Test</label>
+                    <br>
+                    <input name="entry.1323686941" type="checkbox" value="SHSAT" style="color: black;" />
+                    <label>Specialized High School Admissions Test (SHSAT)</label>
+                    <br>
+                    <input name="entry.1323686941" type="checkbox" value="HCHS" style="color: black;" />
+                    <label>Hunter College High School Entrance Exam</label>
+                    <br>
+                    <input name="entry.1323686941" type="checkbox" value="SSAT/ISEE/TACHS" style="color: black;" />
+                    <label>SSAT/ISEE/TACHS</label>
+                    <br>
+                    <input name="entry.1323686941" type="checkbox" value="College Admissions Counseling" style="color: black;" />
+                    <label>College Admissions Counseling</label>
+                    <br>
+                    <input name="entry.1323686941" type="checkbox" value="School Subject/AP" style="color: black;" />
+                    <label>School Subject/AP</label>
+                    <br>
+                    <input name="entry.1323686941" type="checkbox" value="NYS Regents" style="color: black;" />
+                    <label>NYS Regents</label>
+                    <br>
+                    <input name="entry.1323686941" type="checkbox" value="NY Statewide/ELA" style="color: black;" />
+                    <label>NY Statewide/ELA</label>
+                    <br>
+                    <input name="entry.1323686941" type="checkbox" value="English/Writing/Math Enrichment" style="color: black;" />
+                    <label>English/Writing/Math Enrichment</label>
+                    <br>
+                    <input name="entry.1323686941" type="checkbox" value="LSAT" style="color: black;" />
+                    <label>LSAT</label>
+                    <br>
+                    <input name="entry.1323686941" type="checkbox" value="MCAT" style="color: black;" />
+                    <label>MCAT</label>
+                    <br>
+                    <input name="entry.1323686941" type="checkbox" value="GMAT" style="color: black;" />
+                    <label>GMAT</label>
+                    <br>
+                    <input name="entry.1323686941" type="checkbox" value="__other_option__" onclick="document.getElementById('programother').disabled^=1;
                                             document.getElementById('programother').focus();" style="color: black;" />
-                        <label>Other: </label>
-                        <input name="entry.1323686941.other_option_response" type="text" placeholder="Enter if there are others" id="programother" style="color: black;" disabled/>
-                    </fieldset>
-                    <br>
+                    <label>Other: </label>
+                    <input name="entry.1323686941.other_option_response" type="text" placeholder="Enter if there are others" id="programother" style="color: black;" disabled/>
+                </fieldset>
+                <br>
 
-                    <label>If signing up for SAT Subject Tests, please specify which subject(s): </label><br>
-                    <input name="entry.1808260490" type="text" placeholder="Enter subjects" style="color: black;" />
+                <label>If signing up for SAT Subject Tests, please specify which subject(s): </label><br>
+                <input name="entry.1808260490" type="text" placeholder="Enter subjects" style="color: black;" />
+                <br><br>
+
+                <label>If signing up for a certain school subject or AP class, please specify which subject(s): </label><br>
+                <input name="entry.1290588380" type="text" placeholder="Enter subjects" style="color: black;" />
+                <br><br>
+
+                <label>If signing up for a NYS Regents, please specify which subject(s): </label><br>
+                <input name="entry.934784456" type="text" placeholder="Enter subjects" style="color: black;" />
+                <br><br>
+
+                <fieldset>
+                    <legend>Service Format:</legend>
+                    <input name="entry.1991415415" type="checkbox" value="Individual" style="color: black;" />
+                    <label>Individual Tutoring</label>
+                    <br>
+                    <input name="entry.1991415415" type="checkbox" value="Classroom" style="color: black;" />
+                    <label>Classroom/Small Group</label>
+                    <br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>More Information</legend>
+                    <label>Target Test Date: </label>
+                    <input name="entry.1228268680" type="date" style="color:black;">
                     <br><br>
 
-                    <label>If signing up for a certain school subject or AP class, please specify which subject(s): </label><br>
-                    <input name="entry.1290588380" type="text" placeholder="Enter subjects" style="color: black;" />
+                    <label>Target Test Score:</label>
+                    <input name="entry.1830041826" type="text" placeholder="Enter if necessary" style="color: black;" />
                     <br><br>
 
-                    <label>If signing up for a NYS Regents, please specify which subject(s): </label><br>
-                    <input name="entry.934784456" type="text" placeholder="Enter subjects" style="color: black;" />
+                    <label>Notes/Special Requirements: </label><br>
+                    <textarea name="entry.530011145" rows="4" style="color: black; width: 100%; min-width: 250px;" placeholder="Enter if applicable"></textarea>
+                    <br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Parent/Guardian 1 Information</legend>
+
+                    <label>Parent/Guardian Full Name:</label>
+                    <input name="entry.284446444" type="text" placeholder="Enter name here" style="color: black;" required/>
                     <br><br>
 
-                    <fieldset>
-                        <legend>Service Format:</legend>
-                        <input name="entry.1991415415" type="checkbox" value="Individual" style="color: black;" />
-                        <label>Individual Tutoring</label>
-                        <br>
-                        <input name="entry.1991415415" type="checkbox" value="Classroom" style="color: black;" />
-                        <label>Classroom/Small Group</label>
-                        <br>
-                    </fieldset>
+                    <label>Relation to Student:</label>
+                    <input name="entry.1407474457" type="text" placeholder="Enter here" style="color: black;" required/>
+                    <br><br>
 
-                    <fieldset>
-                        <legend>More Information</legend>
-                        <label>Target Test Date: </label>
-                        <input name="entry.1228268680" type="date" style="color:black;">
-                        <br><br>
+                    <label>Parent/Guardian Phone (mobile):</label>
+                    <input name="entry.1556601732" type="text" placeholder="Enter here" style="color: black;" required/>
+                    <br><br>
 
-                        <label>Target Test Score:</label>
-                        <input name="entry.1830041826" type="text" placeholder="Enter if necessary" style="color: black;" />
-                        <br><br>
+                    <label>Mailing Address (include City, State, Zipcode):</label>
+                    <input name="entry.932888865" type="text" placeholder="Enter here" style="color: black;" required/>
+                    <br><br>
 
-                        <label>Notes/Special Requirements: </label><br>
-                        <textarea name="entry.530011145" rows="4" style="color: black; width: 100%; min-width: 250px;" placeholder="Enter if applicable"></textarea>
-                        <br><br>
-                    </fieldset>
-
-                    <fieldset>
-                        <legend>Parent/Guardian 1 Information</legend>
-
-                        <label>Parent/Guardian Full Name:</label>
-                        <input name="entry.284446444" type="text" placeholder="Enter name here" style="color: black;" required/>
-                        <br><br>
-
-                        <label>Relation to Student:</label>
-                        <input name="entry.1407474457" type="text" placeholder="Enter here" style="color: black;" required/>
-                        <br><br>
-
-                        <label>Parent/Guardian Phone (mobile):</label>
-                        <input name="entry.1556601732" type="text" placeholder="Enter here" style="color: black;" required/>
-                        <br><br>
-
-                        <label>Mailing Address (include City, State, Zipcode):</label>
-                        <input name="entry.932888865" type="text" placeholder="Enter here" style="color: black;" required/>
-                        <br><br>
-
-                        <label>Parent/Guardian Email:</label>
-                        <input name="entry.2104455119" type="email" placeholder="Enter here" style="color: black;" required/>
-                    </fieldset>
-
-                    <br>
-
-                    <fieldset>
-                        <legend>Parent/Guardian 2 Information</legend>
-
-                        <label>Parent/Guardian Full Name:</label>
-                        <input name="entry.679135117" type="text" placeholder="Enter name here" style="color: black;" />
-                        <br><br>
-
-                        <label>Relation to Student:</label>
-                        <input name="entry.435421865" type="text" placeholder="Enter here" style="color: black;" />
-                        <br><br>
-
-                        <label>Parent/Guardian Phone (mobile):</label>
-                        <input name="entry.1658956716" type="text" placeholder="Enter here" style="color: black;" />
-                        <br><br>
-
-                        <label>Mailing Address (include City, State, Zipcode):</label>
-                        <input name="entry.1350992503" type="text" placeholder="Enter here" style="color: black;" />
-                        <br><br>
-
-                        <label>Parent/Guardian Email:</label>
-                        <input name="entry.963587031" type="email" placeholder="Enter here" style="color: black;" />
-                    </fieldset>
-                    <br>
-                    <input type="submit" value="Submit" class="hvr-grow" style="background-color:steelblue; color:black;" />
-                </form>
+                    <label>Parent/Guardian Email:</label>
+                    <input name="entry.2104455119" type="email" placeholder="Enter here" style="color: black;" required/>
+                </fieldset>
 
                 <br>
+
+                <fieldset>
+                    <legend>Parent/Guardian 2 Information</legend>
+
+                    <label>Parent/Guardian Full Name:</label>
+                    <input name="entry.679135117" type="text" placeholder="Enter name here" style="color: black;" />
+                    <br><br>
+
+                    <label>Relation to Student:</label>
+                    <input name="entry.435421865" type="text" placeholder="Enter here" style="color: black;" />
+                    <br><br>
+
+                    <label>Parent/Guardian Phone (mobile):</label>
+                    <input name="entry.1658956716" type="text" placeholder="Enter here" style="color: black;" />
+                    <br><br>
+
+                    <label>Mailing Address (include City, State, Zipcode):</label>
+                    <input name="entry.1350992503" type="text" placeholder="Enter here" style="color: black;" />
+                    <br><br>
+
+                    <label>Parent/Guardian Email:</label>
+                    <input name="entry.963587031" type="email" placeholder="Enter here" style="color: black;" />
+                </fieldset>
                 <br>
-                <br>
-            </div>
+                <input type="submit" value="Submit" class="hvr-grow" style="background-color:steelblue; color:white;" />
+            </form>
+
+            <br>
+            <br>
+            <br>
         </div>
+    </div>
 
     <footer>
         <div class="container">
@@ -310,8 +308,6 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="css3-animate-it-master/js/css3-animate-it.js"></script>
-
 </body>
 
 </html>

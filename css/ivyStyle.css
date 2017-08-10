@@ -22,22 +22,11 @@ body {
     width: 100%;
 }
 
-.About {
-    height: 430px;
-    width: 100%;
-    border: solid 1px black;
-    background-color: white;
-}
-
-.Challenge {
-    height: 430px;
-    width: 100%;
-    border: solid 1px black;
-    background-color: white;
-}
-
+.About,
+.Challenge,
 .courseSelection {
     height: 430px;
+    max-width: 400px;
     width: 100%;
     border: solid 1px black;
     background-color: white;
@@ -72,7 +61,7 @@ ul li a {
 }
 
 .box {
-    padding: 20px;
+    padding: 0px;
 }
 
 .box:hover {
@@ -88,9 +77,10 @@ ul li a {
     border: solid black 1px;
 }
 
-.newsletter{
-    height: 550px;
-    width: 50%;
+.newsletter {
+    min-width: 225px;
+    max-width: 550px;
+    width: 75%;
 }
 
 footer {
@@ -117,7 +107,7 @@ footer {
 }
 
 .AboutUs {
-    height: 400px;
+    height: 300px;
     width: 100%;
     background-color: white;
 }
@@ -161,7 +151,7 @@ p {
 }
 
 legend {
-    color: white;
+    color: black;
     font-size: 25px;
     text-align: center;
 }
@@ -241,14 +231,13 @@ legend {
 /*This image is free*/
 
 .emails {
-/*    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../images/email.png");*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../images/email.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-bottom: 100px;
-    padding-top: 100px;
     z-index: -1;
     color: white;
+    padding: 25px;
     margin-bottom: 30px;
 }
 
@@ -366,8 +355,9 @@ border-radius: 3px;
     border-top: 2px solid GREY;
     border-right: 2px solid GREY;
     border-bottom: 2px solid GREY;
-    padding-top: 40px;
+    padding-top: 50px;
     font-size: 14px;
+    text-align: center;
 }
 
 .hideme {
@@ -378,7 +368,7 @@ border-radius: 3px;
     width: 0px;
     height: 0px;
     border-style: inset;
-    border-width: 0 110px 100px 110px;
+    border-width: 0 90px 90px 90px;
     float: 0 auto;
     transform: rotate(180deg);
     display: block;
@@ -393,15 +383,17 @@ border-radius: 3px;
 }
 
 .up3 {
-    border-color: transparent transparent #D27F25 transparent;
+    border-color: transparent transparent #F38A01 transparent;
 }
 
 .up4 {
     border-color: transparent transparent #41AC30 transparent;
 }
+
 .up5 {
     border-color: transparent transparent red transparent;
 }
+
 .up span {
     text-align: center;
     left: -47px;
@@ -409,7 +401,7 @@ border-radius: 3px;
     position: relative;
     width: 93px;
     height: 63px;
-    margin: 0px;
+    margin-top: -15px;
     transform: rotate(180deg);
     display: inline-block;
     text-decoration: none;
@@ -473,13 +465,14 @@ border-radius: 3px;
     position: relative;
     margin: 10px auto;
     width: 300px;
-    height: 240px;
+    height: 280px;
     z-index: 1;
 }
 
 #f1_container {
     perspective: 1000;
     width: 20%;
+    min-width: 225px;
 }
 
 #f1_card {
@@ -520,7 +513,7 @@ border-radius: 3px;
     box-sizing: border-box;
     padding: 10px;
     color: white;
-    text-align: center;
+    text-align: left;
     background-color: white;
 }
 
@@ -540,7 +533,7 @@ border-radius: 3px;
 
 .classJumbo {
     height: 150px;
-    width: 100%;
+    width: 90%;
     background-color: #3585ED;
 }
 
@@ -621,7 +614,7 @@ border-radius: 3px;
 }
 
 .priceTag {
-    width: 80%;
+    width: 99%;
     margin: 0 auto;
     border: 1px solid #C9C7C7;
     padding: 30px;
@@ -761,6 +754,7 @@ h6 {
     font-family: 'Oswald', sans-serif;
 }
 
+
 /*this is for bottom nav*/
 
 #footer {
@@ -803,6 +797,8 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+
 /*.event{
     height: 400px;
 }*/
