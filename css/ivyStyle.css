@@ -644,7 +644,6 @@ border-radius: 3px;
 
 .tutorPackage {
     padding: 40px 20px;
-    background-color: #F7DB86;
     margin-top: 30px;
 }
 
@@ -884,6 +883,11 @@ a{
     border: 1px solid black;
     background-color: lightgrey;
     width: 80%;
-    margin-top: 0px;
     margin: 0 auto;
+}
+input{
+    text-align: center;
+}
+.Eve{
+    margin-top: 30px;
 }
