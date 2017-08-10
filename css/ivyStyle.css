@@ -822,7 +822,6 @@ a:hover {
     padding-top: 20px;
     padding-bottom: 27px;
     background-color: #3585ED;
-    height: 100%;
     color: white;
     min-width: 230px;
 }
@@ -832,11 +831,11 @@ a:hover {
 }
 
 .courseInfo {
-    padding: 9px;
+    padding: 0px;
 }
 
 .courseInfo p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .courseButton {
