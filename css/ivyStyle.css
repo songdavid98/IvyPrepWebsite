@@ -3,6 +3,11 @@ h1 {
     color: white;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -123,6 +128,7 @@ footer {
 
 .* {
     text-align: center;
+    overflow: hidden;
 }
 
 tab1 {
@@ -383,30 +389,6 @@ border-radius: 3px;
 .up5 {
     border-color: transparent transparent red transparent;
 }
-
-
-/*
->>>>>>> 4015d4719064af5cfc2a3093e9b1bf310337b3be
-.up span {
-    left: 47px;
-    top: 90px;
-    position: relative;
-<<<<<<< HEAD
-    width: 93px;
-    height: 63px;
-    margin-top: -15px;
-=======
-    width: 100%;
-    height: 0px;
->>>>>>> 4015d4719064af5cfc2a3093e9b1bf310337b3be
-    transform: rotate(180deg);
-    display: inline-block;
-    font-size: 25px;
-    color: white;
-    text-align: center;
-}
-*/
-
 .up span {
     left: -100px;
     top: 85px;
@@ -639,6 +621,8 @@ border-radius: 3px;
 .tutorPackage {
     padding: 40px 20px;
     margin-top: 30px;
+    background-color: lightgrey;
+    border-radius: 10px;
 }
 
 
@@ -825,6 +809,12 @@ a:hover {
     min-width: 230px;
 }
 
+.courseTitleNew {
+    background-color: #3585ED;
+    color: white;
+    min-width: 230px;
+}
+
 .courseTitle h2 {
     font-size: 33px;
 }
@@ -882,12 +872,11 @@ a {
     width: 80%;
     margin: 0 auto;
 }
-<<<<<<< HEAD
-input{
+input {
     text-align: center;
 }
-.Eve{
+
+.Eve {
     margin-top: 30px;
 }
-=======
->>>>>>> fd419720aed6eb419263f00489b7efb4087088bc
+

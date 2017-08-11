@@ -10,59 +10,170 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse" style="position: fixed; z-index: 2; width: 100%;">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-3">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                <a class="navbar-brand hvr-grow" href="../IvyPrep.html" style="color: white;">IvyPrep</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse " id="navbar-collapse-3">
-                <ul class="nav navbar-nav navbar-right ">
-                    <li class="hvr-highlight"><a href="../IvyPrep.html" style="color:white; ">Home</a></li>
-                    <li class="hvr-highlight"><a href="../AboutUs.html" style="color: white;">About</a></li>
-                    <li class="dropdown hvr-highlight">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: white;">Services <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="../services/Classes.html">Classes</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="../Services/tutoring.html">Private Tutoring</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li class="dropdown-submenu">
-                                <a tabindex="-1">Tests</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="sat.html">SAT</a></li>
-                                    <li><a href="act.html">ACT</a></li>
-                                    <li><a href="psat.html">PSAT</a></li>
-                                    <li><a href="shsat.html">SHSAT</a></li>
-                                    <li><a href="hunter.html">HUNTER</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="hvr-highlight"><a href="../newsletter.html" style="color: white;">Events</a></li>
-                    <li class="hvr-highlight"><a href="../Contact.html" style="color: white;">Contact</a></li>
-                    <li class="hvr-highlight">
-                        <a href="../apply.html" aria-expanded="false" aria-controls="nav-collapse3" style="color: white">Apply</a>
-                    </li>
-                </ul>
-
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-
-    </nav>
-    <!-- /.navbar -->
-    <div style="height: 52px;"></div>
+    <script type="text/javascript" src="../js/headerExams.js"></script>
     <!-- image slider -->
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img class="first-slide" src="http://mjtestprep.com/wp-content/uploads/2013/04/SAT-books.jpg" alt="First slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Example headline.</h1>
+                        <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="second-slide" src="https://www.test-guide.com/images/stories/act3-121233092.jpg" alt="Second slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Another example headline.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="third-slide" src="https://www.kaptest.com/blog/prep/wp-content/uploads/sites/21/2016/05/canstockphoto3444102.jpg" alt="Third slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>One more for good measure.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- /.carousel -->
+
+
+
+    <div class="jumbotron jumbotron-fluid" style="margin-top: 30px;">
+        <div class="container">
+            <h1 class="display-3">PSAT Courses</h1>
+            <p class="lead" style="text-align: justify;">
+                <tab1></tab1>IvyPrep offer small classes taught by teachers that have scored in the top 95-99% of the SAT, GRE and MCAT and know that anyone can master these tests. Our tests and practice are designed to place students within the 90+ percentile and we GUARANTEE a 200-point improvement. Additionally, we offer classes in a number of time slots from weekend,afterschool, breaks and more. To find the right program for you, our full list of programs can be found here.</p>
+        </div>
+    </div>
+    <center>
+
+        <div class="container" style="margin-top: 10px;">
+            <center>
+                <h1 style="font-size: 50px;color:black;">Available Services</h1>
+            </center>
+            <hr>
+
+            <div class="row" style="margin-bottom: 20px;">
+                <div class="col-md-4 test" style="margin-bottom: 25px;">
+                    <div class="priceTag">
+                        <div class="title-blue">
+                            <h1>Classroom PSAT Course</h1>
+                        </div>
+
+                        <div class="row">
+
+                            <a class="up up1">
+                                <span style="font-size: 20px;color: white;">$600-$1880</span>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <p style="font-size: 20px;float: left;"> Expert Instructors</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
+                        </div>
+                        <div class="row">
+                            <p style="font-size: 20px;float: left;"> 18-75 hours of instruction</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
+                        </div>
+                        <div class="row">
+                            <p style="font-size: 20px;float: left;"> 18-69 hours of homework </p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
+                        </div>
+                        <div class="row">
+                            <p style="font-size: 20px;float: left;"> 6-7 full length tests</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
+                        </div>
+                        <div class="row">
+                            <p style="font-size: 20px;float: left;"> Small Class size(10-18 students)</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
+                        </div>
+                        <button type="button" class="btn btn-info hvr-grow" style="margin-top: 5px;background-color:#4E5FEB; width: 100%">Learn More!</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4 test" style="margin-bottom: 25px;">
+                    <div class="priceTag">
+                        <div class="title-orange">
+                            <h1>Private Tutoring</h1>
+                        </div>
+                        <div class="row">
+                            <a class="up up3">
+                                <span>$100+/hr</span>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <p style="font-size: 20px;float: left;"> Expert Instructors</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
+                        </div>
+                        <div class="row">
+                            <p style="font-size: 20px;float: left;"> Personalized Attention</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
+                        </div>
+                        <div class="row">
+                            <p style="font-size: 20px;float: left;"> Flexible Schedules </p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
+                        </div>
+                        <div class="row">
+                            <p style="font-size: 20px;float: left;"> Package discounts available</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
+                        </div>
+                        <div class="row">
+                            <p style="font-size: 20px;float: left;"> Online or at IvyPrep</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
+                        </div>
+                        <button type="button" class="btn btn-info hvr-grow" style="margin-top: 5px;background-color:#F38A01; width: 100%;">Learn More!</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4 test" style="margin-bottom: 25px;">
+                    <div class="priceTag">
+                        <div class="title-green">
+                            <h1>Self-Paced</h1>
+                        </div>
+                        <div class="row">
+                            <a class="up up4">
+                                <span>$100+</span>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <p style="font-size: 20px;float: left;"> Practice Tests Library</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
+                        </div>
+                        <div class="row">
+                            <p style="font-size: 20px;float: left;"> Targeted Worksheets</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
+                        </div>
+                        <div class="row">
+                            <p style="font-size: 20px;float: left;"> Simulate Real Testing Conditions </p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
+                        </div>
+                        <div class="row">
+                            <p style="font-size: 20px;float: left;"> Scorecards with Analysis</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
+                        </div>
+                        <div class="row">
+                            <p style="font-size: 20px;float: left;"> Test Experts Structure Your Prep</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
+                        </div>
+                        <button type="button" class="btn btn-info hvr-grow" style="margin-top: 5px;background-color:#41AC30; width: 100%">Learn More!</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </center>
+
     <div class="jumbotron jumbotron-fluid textbook2">
         <div class="container">
             <h1 class="display-3">What is the PSAT?</h1>
@@ -160,182 +271,40 @@
                     </div>
                 </div>
             </div>
-            <div class="jumbotron jumbotron-fluid" style="margin-top: 30px;">
-                <div class="container">
-                    <h1 class="display-3">PSAT Courses</h1>
-                    <p class="lead" style="text-align: justify;">
-                        <tab1></tab1>IvyPrep offer small classes taught by teachers that have scored in the top 95-99% of the SAT, GRE and MCAT and know that anyone can master these tests. Our tests and practice are designed to place students within the 90+ percentile and we GUARANTEE a 200-point improvement. Additionally, we offer classes in a number of time slots from weekend,afterschool, breaks and more. To find the right program for you, our full list of programs can be found here.</p>
+        </div>
+    </center>
+
+    <div class="jumbotron jumbotron-fluid" style="margin-top: 30px;">
+        <div class="container">
+            <center>
+                <h1 class="display-3">Upcoming Courses</h1>
+            </center>
+        </div>
+    </div>
+
+    <center>
+        <!-- upcoming courses -->
+        <div class="container">
+            <div class="row upcomingCourses">
+                <div class="col-md-4 col-xs-12 courseTitle">
+                    <h2>PSAT Spring Course</h2>
                 </div>
-            </div>
-
-
-            <div class="container" style="margin-top: 10px;">
-                <center>
-                    <h1 style="font-size: 50px;color:black;">Available PSAT Courses</h1>
-                </center>
-                <hr>
-
-                <div class="row" style="margin-bottom: 20px;">
-                    <div class="col-md-4 test" style="margin-bottom: 25px;">
-                        <div class="priceTag">
-                            <div class="title-blue">
-                                <h1>Complete PSAT SPRING</h1>
-                            </div>
-                            <div class="row">
-                                <a class="up up1">
-                                    <span>$1880</span>
-                                </a>
-                            </div>
-                            <div class="row">
-                                <p style="font-size: 20px;float: left;"> Expert Instructors</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                            </div>
-                            <div class="row">
-                                <p style="font-size: 20px;float: left;"> 48-69 hours of instruction</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                            </div>
-                            <div class="row">
-                                <p style="font-size: 20px;float: left;"> 32+ hours of homework </p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                            </div>
-                            <div class="row">
-                                <p style="font-size: 20px;float: left;"> 6-7 full length tests</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                            </div>
-                            <div class="row">
-                                <p style="font-size: 20px;float: left;"> Small Class size(~12)</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                            </div>
-                            <button type="button" class="btn btn-info hvr-grow" style="margin-top: 5px;background-color:#4E5FEB; width: 100%">Learn More!</button>
-                        </div>
-                    </div>
+                <div class="col-md-2 col-xs-12" style="margin-top: 30px;">
+                    <h2>$1880</h2>
                 </div>
-                <hr>
-
-                <div class="container" style="margin-bottom: 30px">
-                    <div class="row" style="margin-bottom: 10px;">
-                        <div class="col-md-5">
-                            <h1 style="font-size: 40px;color: black;">PSAT Private Tutoring</h1>
-                        </div>
-                        <div class="col-md-6">
-                            <h1 style="font-size: 40px;color: black;">PSAT Self-Paced</h1>
-                        </div>
-                    </div>
-
-
-                    <div class="row">
-                        <div class="col-md-4 test" style="margin-bottom: 25px;">
-                            <div class="priceTag">
-                                <div class="title-orange">
-                                    <h1>Private Tutoring</h1>
-                                </div>
-                                <div class="row">
-                                    <a class="up up3">
-                                        <span>$100+/hr</span>
-                                    </a>
-                                </div>
-                                <div class="row">
-                                    <p style="font-size: 20px;float: left;"> Expert Instructors</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                                </div>
-                                <div class="row">
-                                    <p style="font-size: 20px;float: left;"> Personalized Attention</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                                </div>
-                                <div class="row">
-                                    <p style="font-size: 20px;float: left;"> Flexible Schedules </p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                                </div>
-                                <div class="row">
-                                    <p style="font-size: 20px;float: left;"> Package discounts available</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                                </div>
-                                <div class="row">
-                                    <p style="font-size: 20px;float: left;"> Online or at IvyPrep</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                                </div>
-                                <button type="button" class="btn btn-info hvr-grow" style="margin-top: 5px;background-color:#F38A01; width: 100%;">Learn More!</button>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 test" style="margin-bottom: 25px;">
-                            <div class="priceTag">
-                                <div class="title-green">
-                                    <h1>Self-Paced</h1>
-                                </div>
-                                <div class="row">
-                                    <a class="up up4">
-                                        <span>$100+</span>
-                                    </a>
-                                </div>
-                                <div class="row">
-                                    <p style="font-size: 20px;float: left;"> Practice Tests Library</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                                </div>
-                                <div class="row">
-                                    <p style="font-size: 20px;float: left;"> Targeted Worksheets</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                                </div>
-                                <div class="row">
-                                    <p style="font-size: 20px;float: left;"> Simulate Real Testing Conditions </p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                                </div>
-                                <div class="row">
-                                    <p style="font-size: 20px;float: left;"> Scorecards with Analysis</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                                </div>
-                                <div class="row">
-                                    <p style="font-size: 20px;float: left;"> Test Experts Structure Your Prep</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                                </div>
-                                <button type="button" class="btn btn-info hvr-grow" style="margin-top: 5px;background-color:#41AC30; width: 100%">Learn More!</button>
-                            </div>
-                        </div>
-                        <div class="col-md-4 test" style="margin-bottom: 25px;">
-                            <div class="priceTag">
-                                <div class="title-green">
-                                    <h1>Self-Paced</h1>
-                                </div>
-                                <div class="row">
-                                    <a class="up up4">
-                                        <span>$100+</span>
-                                    </a>
-                                </div>
-                                <div class="row">
-                                    <p style="font-size: 20px;float: left;"> Practice Tests Library</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                                </div>
-                                <div class="row">
-                                    <p style="font-size: 20px;float: left;"> Targeted Worksheets</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                                </div>
-                                <div class="row">
-                                    <p style="font-size: 20px;float: left;"> Simulate Real Testing Conditions </p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                                </div>
-                                <div class="row">
-                                    <p style="font-size: 20px;float: left;"> Scorecards with Analysis</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                                </div>
-                                <div class="row">
-                                    <p style="font-size: 20px;float: left;"> Test Experts Structure Your Prep</p><span class="glyphicon glyphicon-ok" style="float: right;"></span>
-                                </div>
-                                <button type="button" class="btn btn-info hvr-grow" style="margin-top: 5px;background-color:#41AC30; width: 100%">Learn More!</button>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-4 col-xs-12 courseInfo">
+                    <p>Date: 12/01/2017 - 02/15/2018</p>
+                    <p>Prepare with experienced teachers in a small classroom environemnt</p>
                 </div>
+                <a href="../topicDescriptions/satSpring.html">
+                    <div class="col-md-2 col-xs-12 courseButton">
+                        <h2>Learn More</h2>
+                    </div>
+                </a>
             </div>
         </div>
     </center>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-md-offset-1" style="margin-top: 30px;color: white">
-                    <h3>Contact Us</h3>
-                    <p style="color:white">info@ivyprepschool.com
-                        <br> +1 (718) 261 4882 </p>
-                </div>
-                <div class="col-md-3" style="margin-top: 30px;color: white;">
-                    <h3>Location</h3>
-                    <p style="color:white">IvyPrep Forest Hills <br> 108-21 72nd Avenue <br> Forest Hills, NY 11375 </p>
-                </div>
-                <div class="col-md-4">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9046107676013!2d-73.844683685271!3d40.72011634505714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25e20adea812b%3A0xe0c48cb3d52ab7de!2s108-21+72nd+Ave%2C+Flushing%2C+NY+11375!5e0!3m2!1sen!2sus!4v1499541641837" width="100%" height="200" frameborder="0" style="border:0;margin-top: 20px;" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-md-offset-4">
-                    <center>
-                        <img src="../images/ivyLogo.png">
-                        <p>© 2017. All Rights Reserved.</p>
-                    </center>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+    <script type="text/javascript" src="js/footer.js"></script>
     <div id="footer">
         <div class="container col-xs-12 navbar-inverse navbar-fixed-bottom" class="test1">
             <div class="row navBarRow" id="bottomNav">
