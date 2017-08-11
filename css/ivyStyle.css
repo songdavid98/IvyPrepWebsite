@@ -3,6 +3,11 @@ h1 {
     color: white;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -123,6 +128,7 @@ footer {
 
 .* {
     text-align: center;
+    overflow: hidden;
 }
 
 tab1 {
@@ -825,6 +831,12 @@ a:hover {
     min-width: 230px;
 }
 
+.courseTitleNew {
+    background-color: #3585ED;
+    color: white;
+    min-width: 230px;
+}
+
 .courseTitle h2 {
     font-size: 33px;
 }
@@ -882,12 +894,11 @@ a {
     width: 80%;
     margin: 0 auto;
 }
-<<<<<<< HEAD
-input{
+input {
     text-align: center;
 }
-.Eve{
+
+.Eve {
     margin-top: 30px;
 }
-=======
->>>>>>> fd419720aed6eb419263f00489b7efb4087088bc
+
