@@ -42,7 +42,7 @@ document.write("                    <li class=\"hvr-highlight\"><a href=\"..\/Co
 document.write("                    <li class=\"hvr-highlight\">");
 document.write("                        <a href=\"..\/apply.html\" aria-expanded=\"false\" aria-controls=\"nav-collapse3\" style=\"color: white\">Apply<\/a>");
 document.write("                    <\/li>");
-document.write("                    <li class=\"hvr-highlight\"><a href=\"..\/loginForStu.html\" style=\"color: white;\">Contact<\/a><\/li>");
+document.write("                    <li class=\"hvr-highlight\"><a href=\"..\/loginForStu.html\" style=\"color: white;\">Login<\/a><\/li>");
 document.write("                <\/ul>");
 document.write("");
 document.write("            <\/div>");
