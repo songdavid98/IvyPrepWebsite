@@ -32,3 +32,10 @@ $(".myBox").click(function() {
 $('.carousel').carousel({
         interval: 4500
 });
+
+function scroll(val)
+{
+    //alert(document.getElementById(val));
+    document.getElementById(val).click()
+}
+
