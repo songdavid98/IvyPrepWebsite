@@ -30,7 +30,7 @@ $(".myBox").click(function() {
 
 //this is for the carousel
 $('.carousel').carousel({
-        interval: 4500
+        interval: 8000
 });
 
 function scroll(val)
