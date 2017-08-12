@@ -389,6 +389,7 @@ border-radius: 3px;
 .up5 {
     border-color: transparent transparent red transparent;
 }
+
 .up span {
     left: -100px;
     top: 85px;
@@ -509,7 +510,7 @@ border-radius: 3px;
     padding: 10px;
     color: white;
     color: black;
-    text-align: left;
+    text-align: center;
     background-color: white;
 }
 
@@ -878,6 +879,7 @@ a {
     width: 80%;
     margin: 0 auto;
 }
+
 input {
     text-align: center;
 }
@@ -885,4 +887,3 @@ input {
 .Eve {
     margin-top: 30px;
 }
-
