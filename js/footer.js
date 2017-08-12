@@ -1,4 +1,4 @@
-document.write("<footer>");
+document.write("<footer style='margin-top:30px;'>");
 document.write("        <div class=\"container \">");
 document.write("            <div class=\"row \">");
 document.write("                <div class=\"col-md-3 col-md-offset-1 \" style=\"margin-top: 30px;color: white \">");
@@ -24,4 +24,3 @@ document.write("                <\/div>");
 document.write("            <\/div>");
 document.write("        <\/div>");
 document.write("    <\/footer>");
-
