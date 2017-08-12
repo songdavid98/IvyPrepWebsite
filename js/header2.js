@@ -40,7 +40,7 @@ document.write("                    <li class=\"hvr-highlight\"><a href=\"..\/ne
 document.write("                    <li class=\"hvr-highlight\"><a href=\"..\/college.html\" style=\"color: white;\">College Admissions<\/a><\/li>");
 document.write("                    <li class=\"hvr-highlight\"><a href=\"..\/Contact.html\" style=\"color: white;\">Contact<\/a><\/li>");
 document.write("                    <li class=\"hvr-highlight\">");
-document.write("                        <a href=\"..\/apply.html\" aria-expanded=\"false\" aria-controls=\"nav-collapse3\" style=\"color: white\">Apply<\/a>");
+document.write("                        <a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSfGwmW9lXIpsBJODXjK8C7CnJVDLd91S4Fi9l1Nbf5KmVFbbg\/viewform\" aria-expanded=\"false\" aria-controls=\"nav-collapse3\" style=\"color: white\">Apply<\/a>");
 document.write("                    <\/li>");
 document.write("                    <li class=\"hvr-highlight\"><a href=\"..\/loginForStu.html\" style=\"color: white;\">Login<\/a><\/li>");
 document.write("                <\/ul>");
