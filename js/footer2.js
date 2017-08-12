@@ -30,7 +30,7 @@ document.write("            <div class=\"row navBarRow\" id=\"bottomNav\">");
 document.write("                <div class=\" custom text-center myBox\" style=\"display: inline-block;\"><a href=\"..\/Services\/Classes.html\"><i class=\"glyphicon glyphicon-leaf\"><\/i><br><p>Programs<\/p><\/a> <\/div>");
 document.write("                <div class=\"  custom text-center myBox\" style=\"display: inline-block;\"><a href=\"..\/AboutUs.html\"><i class=\"glyphicon glyphicon-info-sign\"><\/i><br><p>About Us<\/p><\/a><\/div>");
 document.write("                <div class=\" custom text-center myBox\" style=\"display: inline-block;\"><a href=\"..\/Contact.html\"><i class=\"glyphicon glyphicon-earphone\"><\/i><br><p>Contact<\/p><\/a><\/div>");
-document.write("                <div class=\" custom text-center myBox\" style=\"display: inline-block;\"><a href=\"..\/Apply.html\"><i class=\"glyphicon glyphicon-pencil\"><\/i><br><p>Apply<\/p><\/a><\/div>");
+document.write("                <div class=\" custom text-center myBox\" style=\"display: inline-block;\"><a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSfGwmW9lXIpsBJODXjK8C7CnJVDLd91S4Fi9l1Nbf5KmVFbbg\/viewform\"><i class=\"glyphicon glyphicon-pencil\"><\/i><br><p>Apply<\/p><\/a><\/div>");
 document.write("            <\/div>");
 document.write("        <\/div>");
 document.write("    <\/div>");
