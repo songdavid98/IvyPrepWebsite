@@ -17,7 +17,7 @@ document.write("            <\/div>");
 document.write("            <div class=\"row \">");
 document.write("                <div class=\"col-md-4 col-md-offset-4 \">");
 document.write("                    <center>");
-document.write("                        <img src=\"images\/ivyLogo.png \">");
+document.write("                        <img src=\"..\/images\/ivyLogo.png \">");
 document.write("                        <p>© 2017. All Rights Reserved.<\/p>");
 document.write("                    <\/center>");
 document.write("                <\/div>");
