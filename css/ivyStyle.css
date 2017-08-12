@@ -893,19 +893,27 @@ input {
     margin-top: 20px; 
     padding: 20px;
     background-color: white;
+    border: 1px solid black;
+    padding:15px;
 }
 .subjectDes h2{
     font-size: 70px;
 }
 .subjectInfo{
-    height: 450px;
+    height: 400px;
     width: 100%;
+    margin-top: 20px;
     background-color: lightgrey;
     border: 1px solid black;
     padding: 10px;
 }
 .subjectInfor h2{
-    font-weight: 100;
+    font-size: 70px;
     float: left;
-
 }
+.subjectTestBack{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/wall.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
