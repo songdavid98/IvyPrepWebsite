@@ -13,7 +13,7 @@
     <script type="text/javascript" src="js/header.js"></script>
     <div class="container" style="margin-top: 75px; background-image: url(images/paper.png);">
         <div class="row" style="margin-top: 30px; margin-bottom: 25px; background-image: url(images/paper.png);">
-            <div class="col-md-8 col-md-offset-2 col-xs-12" style="font-size: 20px; padding-bottom: 15px;">
+            <div class="col-md-6 col-md-offset-3 col-xs-12" style="font-size: 20px; padding-bottom: 15px;">
                 <h2 style="font-size: 50px; text-align: center;">Enter this form to apply to our great programs!</h2>
 
                 <br>
@@ -24,9 +24,7 @@
                 </script>
                 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='thankyou.html';}"></iframe>
 
-                <form id="applyform" class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSfGwmW9lXIpsBJODXjK8C7CnJVDLd91S4Fi9l1Nbf5KmVFbbg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;" style="margin-left: 30px;">
-
-
+                <form id="applyform" class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSfGwmW9lXIpsBJODXjK8C7CnJVDLd91S4Fi9l1Nbf5KmVFbbg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
                     <fieldset>
                         <legend>Student Information:</legend>
 
@@ -49,7 +47,10 @@
                         <br><br>
 
                         <label>Student's Birthdate (mm/dd/yyyy):</label>
-                        <input name="entry.1176621032" type="date" required style="color: black;" />
+                        <input name="entry.1176621032_month" type="text" required style="color: black;" />
+                        <input name="entry.1176621032_day" type="text" required style="color: black;" />
+                        <input name="entry.1176621032_year" type="text" required style="color: black;" />
+<!--                        <input name="entry.1176621032" type="date" required style="color: black;" />-->
                         <br><br>
 
                         <label>School:</label>
@@ -76,6 +77,7 @@
 
                     <fieldset>
                         <legend>Select all programs the student is signing up for</legend>
+                        <input type="hidden" name="entry.659517535_sentinel" jsname="DTMEae">
                         <input name="entry.659517535" type="checkbox" value="SAT/PSAT" style="color: black;" />
                         <label>SAT/PSAT</label>
                         <br>
@@ -136,6 +138,7 @@
 
                     <fieldset>
                         <legend>Service Format:</legend>
+                        <input type="hidden" name="entry.1192796682_sentinel" jsname="DTMEae">
                         <input name="entry.1192796682" type="checkbox" value="Individual" style="color: black;" />
                         <label>Individual Tutoring</label>
                         <br>
@@ -187,7 +190,7 @@
                     <br>
 
                     <fieldset>
-                        <legend>Parent/Guardian 2 Information</legend>
+                        <legend>Parent/Guardian 2 Information (Optional)</legend>
 
                         <label>Parent/Guardian Full Name:</label>
                         <input name="entry.1076715126" type="text" placeholder="Enter name here" style="color: black;" />
