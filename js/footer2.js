@@ -24,4 +24,13 @@ document.write("                <\/div>");
 document.write("            <\/div>");
 document.write("        <\/div>");
 document.write("    <\/footer>");
-
+document.write("<div id=\"footer\">");
+document.write("        <div class=\"container col-xs-12 navbar-inverse navbar-fixed-bottom\" class=\"test1\">");
+document.write("            <div class=\"row navBarRow\" id=\"bottomNav\">");
+document.write("                <div class=\" custom text-center myBox\" style=\"display: inline-block;\"><a href=\"..\/Services\/Classes.html\"><i class=\"glyphicon glyphicon-leaf\"><\/i><br><p>Programs<\/p><\/a> <\/div>");
+document.write("                <div class=\"  custom text-center myBox\" style=\"display: inline-block;\"><a href=\"..\/AboutUs.html\"><i class=\"glyphicon glyphicon-info-sign\"><\/i><br><p>About Us<\/p><\/a><\/div>");
+document.write("                <div class=\" custom text-center myBox\" style=\"display: inline-block;\"><a href=\"..\/Contact.html\"><i class=\"glyphicon glyphicon-earphone\"><\/i><br><p>Contact<\/p><\/a><\/div>");
+document.write("                <div class=\" custom text-center myBox\" style=\"display: inline-block;\"><a href=\"..\/Apply.html\"><i class=\"glyphicon glyphicon-pencil\"><\/i><br><p>Apply<\/p><\/a><\/div>");
+document.write("            <\/div>");
+document.write("        <\/div>");
+document.write("    <\/div>");
