@@ -1,0 +1,125 @@
+LIST OF CHANGES
+
+-HOME PAGE (ivyprep.html):
+
+	- CAROUSEL: (CTRL-F "Carousel")
+		- All 3 images on carousel must be changed <img src=" <INSERT LINK OR IMAGE HERE> ">
+		- Text on the three images must be changed
+			- <h1 style="font-size: 35px;">This is a title</h1>
+			- Description Under
+
+	- 3 Images in boxes middle of page: (CTRL-F "middlepage")
+		- Change images above texts <img src=" <INSERT LINK OR IMAGE HERE> ">
+
+	- EVENTS AND RESOURCES: (CTRL-F "Events section")
+		- Change circle images next to text <img src=" <INSERT LINK OR IMAGE HERE> ">
+		- Change "<p>Here is a link <br>here is the date</p>" accordingly	
+
+-ABOUT PAGE (AboutUs.html):
+
+	- Circle Image next to "Our History" (CTRL-F "circleimg") must be changed.
+
+	- Pictures of teachers can be changed if needed (CTRL-F "Teachers Section").
+
+	
+-CLASSES PAGE (Services/Classes.html):
+
+	-TOP HEADER
+		- Background Image must be changed
+		- Icons above text must be changed (CTRL-F "headicon") <img src="...">
+
+	-TEST HOURS/PRICES/INFO
+		- Content can be changed accordingly (CTRL-F "satinfo" "psatinfo" "hunterinfo" "shsatinfo")
+
+-TUTORING PAGE (Services/tutoring.html):
+	
+	- Three icons above text must be changed (CTRL-F 'texticon") <img src="...">
+	
+	- The three alternating images middle of the page must be changed (CTRL-F "altimage")
+
+-SAT PAGE (Exams/sat.html):
+	
+	- CAROUSEL:
+		- All 3 images must be changed <img src="...">
+
+	- FLIPPING:
+		- Icons must be changed (3) (CTRL-F "flipicon")
+
+	- SCORING
+		- Icon to the left of text needs changing (CTRL-F "scoreimg")
+	
+	- CLASS DATES:
+		- Dates at the bottom of the page should be changed (CTRL-F "dates")
+
+-ACT PAGE (Exams/act.html):
+	
+	- CAROUSEL:
+		- All 3 images must be changed <img src="...">
+
+	- FLIPPING:
+		- Icons must be changed (5) (CTRL-F "flipicon")
+
+	- SCORING
+		- Icon to the left of text needs changing (CTRL-F "scoreimg")
+
+
+-PSAT PAGE (Exams/psat.html):
+	
+	- CAROUSEL:
+		- All 3 images must be changed <img src="...">
+
+	- FLIPPING:
+		- Icons must be changed (3) (CTRL-F "flipicon")
+
+	- SCORING:
+		- Icon to the left of text needs changing (CTRL-F "scoreimg")
+	
+	- CLASS DATES:
+		- Dates at the bottom of the page should be changed (CTRL-F "dates")
+
+
+-SHSAT PAGE (Exams/shsat.html):
+	
+	- CAROUSEL:
+		- All 3 images must be changed <img src="...">	
+
+
+	- FLIPPING:
+		- Icons must be changed (3) (CTRL-F "flipicon")
+	
+	- SCORING:
+		- Icon to the left of text needs changing (CTRL-F "scoreimg")
+	
+	- CLASS DATES:
+		- Dates at the bottom of the page should be changed (CTRL-F "dates")
+
+
+-HUNTER PAGE (Exams/hunter.html):
+	
+	- CAROUSEL:
+		- All 3 images must be changed <img src="...">
+
+	- FLIPPING:
+		- Icons must be changed (3) (CTRL-F "flipicon")
+
+	- SCORING:
+		- Icon to the left of text needs changing (CTRL-F "scoreimg")
+	
+	- CLASS DATES:
+		- Dates at the bottom of the page should be changed (CTRL-F "dates")
+
+-EVENTS PAGE (newsLetter.html):
+	 
+	-Circle images must be changed (15) (CTRL-F "circleimg")
+
+	-Background image of newsletter applciation must be changed (OPEN IvyStyle.css and CTRL-F "newsletter")
+
+-COLLEGE ADMISSIONS PAGE (college.html):
+
+	-Background (Wood) must be changed (CTRL-F "backimg")
+
+	-6 Icons must be changed (CTRL-F "texticons")
+
+-CONTACT PAGE (Contact.html): 
+	
+	-Newsletter icon must be changed (CTRL-F "newsicon")
